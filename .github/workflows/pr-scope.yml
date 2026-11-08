@@ -1,0 +1,40 @@
+name: PR scope check
+
+# Fails any pull request that changes files other than data/<year>.yaml.
+#
+# Security note: pull_request_target runs the copy of this workflow from main, so a PR
+# can't edit this check to make it pass. That trigger is only safe because this job
+# NEVER checks out or runs code from the pull request. It only reads the list of
+# changed filenames from the GitHub API. Don't add an actions/checkout step here.
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  pull-requests: read
+
+jobs:
+  scope:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Only data/<year>.yaml may change
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR: ${{ github.event.pull_request.number }}
+          REPO: ${{ github.repository }}
+        run: |
+          # Includes the old name of renamed files, so a rename can't sneak past.
+          files=$(gh api --paginate "repos/$REPO/pulls/$PR/files" \
+            --jq '.[] | .filename, (.previous_filename // empty)' | sort -u)
+          echo "Files changed in this PR:"
+          echo "$files" | sed 's/^/  - /'
+
+          bad=$(echo "$files" | grep -Ev '^data/[0-9]{4}\.yaml$' || true)
+          if [ -n "$bad" ]; then
+            echo "::error title=Out of scope::Deal PRs may only change data/<year>.yaml. Open an issue to suggest other changes."
+            echo "Not allowed in a deal PR:"
+            echo "$bad" | sed 's/^/  - /'
+            exit 1
+          fi
+          echo "OK: only deal data changed."
