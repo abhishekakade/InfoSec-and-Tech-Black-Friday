@@ -2,6 +2,8 @@
 
 Thanks for helping out! The README is generated from `data/2026.yaml`, so adding a deal means adding a few lines there. Please don't edit `README.md` directly, because your changes would be overwritten.
 
+Inclusion is at the maintainer’s discretion. VPNs, lifetime deals, and anything scammy won’t be merged.
+
 ## Adding a deal
 
 1. Open [`data/2026.yaml`](data/2026.yaml) (the pencil icon on GitHub works fine).
