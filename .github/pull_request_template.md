@@ -7,4 +7,4 @@
 - [ ] No affiliate links, referral codes, or tracking parameters (`?ref=`, `utm_`, etc.)
 - [ ] Discount codes are in quotes, e.g. `code: "BF26"`
 - [ ] I added an `ends:` date if the vendor lists one
-- [ ] (Optional) I added myself to `credits:` in `meta`
+- [ ] (Optional) I added `via: "@my-username"` to my deal(s) so I get credit
