@@ -74,6 +74,18 @@ sections:
         deal: Discount varies daily, see site
         ends: 2026-12-01
         notes: Great compact homelab boxes
+      - vendor: Back Market
+        url: https://www.backmarket.com/en-us/e/black-friday
+        deal: Discount varies daily, see site
+        ends: 2026-12-01
+        notes: refurb phones and hardware for labs
+      - vendor: Minis Forum
+        url: https://store.minisforum.com/pages/minisforum-black-friday
+        deal: Discount varies daily, see site
+        starts: 2026-11-11
+        ends: 2026-11-30
+        notes: refurb phones and hardware for labs
+        used: true
         
   - id: maker
     title: 3D Printing & Maker
