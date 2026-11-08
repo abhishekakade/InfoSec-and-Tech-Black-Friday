@@ -87,7 +87,7 @@ sections:
         url: https://www.robotshop.com/collections/on-sale
         deal: Discount varies daily, see site
         ends: 2026-11-29
-        USED: true
+        used: true
         
   - id: books
     title: Books
