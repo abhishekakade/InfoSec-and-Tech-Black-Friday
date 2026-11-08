@@ -13,7 +13,7 @@ Even if something makes the list, do your due diligence so you aren't getting sc
 
 **Legend:** 💖 training I've taken and liked · ✨ gear or services I've used · ~~struck through~~ means the deal has ended
 
-_Last updated: Nov 8, 2026 07:54 PST_
+_Last updated: Nov 8, 2026 10:04 PST_
 
 ## Table of contents
 
@@ -49,6 +49,8 @@ _Nothing yet. Know of a deal? See [Contribute](#contribute)._
 
 | Vendor | Deal | Code | Dates | Notes |
 |---|---|---|---|---|
+| [Minis Forum](https://store.minisforum.com/pages/minisforum-black-friday) ✨ | Discount varies daily, see site | — | Nov 11 – Nov 30 | refurb phones and hardware for labs |
+| [Back Market](https://www.backmarket.com/en-us/e/black-friday) | Discount varies daily, see site | — | Dec 1 | refurb phones and hardware for labs |
 | [Geekom](https://www.geekompc.com/black-friday/) | Discount varies daily, see site | — | Dec 1 | Great compact homelab boxes |
 
 ## 3D Printing & Maker
