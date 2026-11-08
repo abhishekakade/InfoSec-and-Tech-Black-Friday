@@ -19,6 +19,7 @@ Thanks for helping out! The README is generated from `data/2026.yaml`, so adding
         code: "BF26"
         ends: 2026-12-02
         focus: Blue
+        via: "@your-github-username"
 ```
 
 Order doesn't matter. Tables are sorted by end date automatically.
@@ -36,6 +37,7 @@ Order doesn't matter. Tables are sorted by end date automatically.
 | `ends_note` | no | Extra timing detail, e.g. `midnight PST` |
 | `focus` | no | `Red`, `Blue`, `Red / Blue`, `Dev`, `Cloud`, `Networking`, `General`, etc. |
 | `notes` | no | Anything else worth knowing. Markdown links are fine |
+| `via` | no | Your GitHub username, e.g. `"@octocat"`. Shows as *via @octocat* next to the deal so you get credit |
 
 `taken` (💖) and `used` (✨) are the maintainer's personal picks, so please leave them off.
 
