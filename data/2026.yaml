@@ -38,7 +38,20 @@ sections:
   - id: courses
     title: Courses & Training
     emoji: 🎓
-    deals: []
+    deals: 
+      - vendor: TrainSec
+        url: https://trainsec.net/cybersecurity-courses-black-friday-2026/
+        deal: 40% off individual courses and plans
+        code: BF2026
+        ends: 2025-11-31
+        focus: Security / Dev
+        taken: true
+      - vendor: Practical DevSecOps
+        url: https://www.practical-devsecops.com/black-friday-sale-2026/
+        deal: 15% off certs, up to $600 off bundles
+        ends: 2025-11-31
+        focus: Security / AI 
+        taken: true
 
   - id: labs
     title: Practical Labs
@@ -48,7 +61,12 @@ sections:
   - id: hardware
     title: Hardware
     emoji: 🔧
-    deals: []
+    deals: 
+      - vendor: Geekom
+        url: https://www.geekompc.com/black-friday/
+        deal: Discount varies daily, see site
+        ends: 2026-12-01
+        notes: Great compact homelab boxes
 
   - id: books
     title: Books
