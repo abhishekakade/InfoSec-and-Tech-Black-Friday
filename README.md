@@ -13,7 +13,7 @@ Even if something makes the list, do your due diligence so you aren't getting sc
 
 **Legend:** 💖 training I've taken and liked · ✨ gear or services I've used · ~~struck through~~ means the deal has ended
 
-_Last updated: Nov 8, 2026 04:38 PST_
+_Last updated: Nov 8, 2026 05:39 PST_
 
 ## Table of contents
 
@@ -34,7 +34,10 @@ _Nothing yet. Know of a deal? See [Contribute](#contribute)._
 
 ## Courses & Training
 
-_Nothing yet. Know of a deal? See [Contribute](#contribute)._
+| Vendor | Deal | Code | Dates | Focus |
+|---|---|---|---|---|
+| [Practical DevSecOps](https://www.practical-devsecops.com/black-friday-sale-2026/) 💖 | 15% off certs, up to $600 off bundles | — | Nov 30 | Security / AI |
+| [TrainSec](https://trainsec.net/cybersecurity-courses-black-friday-2026/) 💖 | 40% off individual courses and plans | `BF2026` | Nov 30 | Security / Dev |
 
 ## Practical Labs
 
@@ -42,7 +45,9 @@ _Nothing yet. Know of a deal? See [Contribute](#contribute)._
 
 ## Hardware
 
-_Nothing yet. Know of a deal? See [Contribute](#contribute)._
+| Vendor | Deal | Code | Dates | Notes |
+|---|---|---|---|---|
+| [Geekom](https://www.geekompc.com/black-friday/) | Discount varies daily, see site | — | Dec 1 | Great compact homelab boxes |
 
 ## Books
 
