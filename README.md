@@ -13,7 +13,7 @@ Even if something makes the list, do your due diligence so you aren't getting sc
 
 **Legend:** 💖 training I've taken and liked · ✨ gear or services I've used · ~~struck through~~ means the deal has ended
 
-_Last updated: Nov 8, 2026 05:39 PST_
+_Last updated: Nov 8, 2026 07:54 PST_
 
 ## Table of contents
 
@@ -21,6 +21,7 @@ _Last updated: Nov 8, 2026 05:39 PST_
 - 🎓 [Courses & Training](#courses--training)
 - 🧪 [Practical Labs](#practical-labs)
 - 🔧 [Hardware](#hardware)
+- 🖨️ [3D Printing & Maker](#3d-printing--maker)
 - 📕 [Books](#books)
 - 👔 [Wearables](#wearables)
 - 💾 [Games](#games)
@@ -36,6 +37,7 @@ _Nothing yet. Know of a deal? See [Contribute](#contribute)._
 
 | Vendor | Deal | Code | Dates | Focus |
 |---|---|---|---|---|
+| [Just Hacking Training](https://www.justhacking.com/types/courses-and-paths) | 25% off | `BFF25` | Nov 30 | Red/Blue |
 | [Practical DevSecOps](https://www.practical-devsecops.com/black-friday-sale-2026/) 💖 | 15% off certs, up to $600 off bundles | — | Nov 30 | Security / AI |
 | [TrainSec](https://trainsec.net/cybersecurity-courses-black-friday-2026/) 💖 | 40% off individual courses and plans | `BF2026` | Nov 30 | Security / Dev |
 
@@ -49,13 +51,22 @@ _Nothing yet. Know of a deal? See [Contribute](#contribute)._
 |---|---|---|---|---|
 | [Geekom](https://www.geekompc.com/black-friday/) | Discount varies daily, see site | — | Dec 1 | Great compact homelab boxes |
 
+## 3D Printing & Maker
+
+| Vendor | Deal | Code | Dates |
+|---|---|---|---|
+| [Creality](https://store.creality.com/pages/sale) | Discount varies daily, see site | — | Nov 29 |
+| [RobotShop](https://www.robotshop.com/collections/on-sale) ✨ | Discount varies daily, see site | — | Nov 29 |
+
 ## Books
 
 _Nothing yet. Know of a deal? See [Contribute](#contribute)._
 
 ## Wearables
 
-_Nothing yet. Know of a deal? See [Contribute](#contribute)._
+| Vendor | Deal | Code | Dates |
+|---|---|---|---|
+| [Geeksoutfit](https://www.geeksoutfit.com/) | Early bird Black Friday 35% | `BFEM35` | Nov 29 |
 
 ## Games
 
