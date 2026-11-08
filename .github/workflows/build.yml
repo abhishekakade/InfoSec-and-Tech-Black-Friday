@@ -1,0 +1,66 @@
+name: Build deal list
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+      - "templates/**"
+      - "scripts/**"
+      - "requirements.txt"
+      - ".github/workflows/build.yml"
+  pull_request:
+    paths:
+      - "data/**"
+      - "templates/**"
+      - "scripts/**"
+      - "requirements.txt"
+  schedule:
+    # Daily Nov–Jan at 08:15 UTC (12:15 AM Pacific), just after most deals end,
+    # so expired deals get struck through without anyone touching the repo.
+    - cron: "15 8 * 11,12,1 *"
+  workflow_dispatch:
+
+concurrency:
+  group: build-deal-list
+  cancel-in-progress: false
+
+jobs:
+  # Pull requests (including from forks) only get validated. Nothing is committed.
+  validate:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python scripts/generate.py --validate
+
+  # Pushes to main, the daily schedule, and manual runs rebuild and commit the markdown.
+  build:
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python scripts/generate.py
+      - name: Commit regenerated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898273+github-actions[bot]@users.noreply.github.com"
+          git add README.md archive/
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+          else
+            git commit -m "Regenerate deal list"
+            git push
+          fi

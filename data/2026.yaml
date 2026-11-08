@@ -1,0 +1,71 @@
+# 2026 deals. This file becomes README.md. Full field reference is in CONTRIBUTING.md.
+#
+#   - vendor: Example Academy              # required
+#     url: https://example.com/black-friday # required, no affiliate/tracking params
+#     deal: 40% off all courses             # required, short
+#     code: "BF26"                          # optional; always quote it. Several: ["A", "B"]
+#     starts: 2026-11-24                    # optional, YYYY-MM-DD
+#     ends: 2026-12-02                      # optional but please add it when known
+#     ends_note: midnight PST               # optional
+#     focus: Blue                           # optional: Red, Blue, Red / Blue, Dev, Cloud, Networking, General...
+#     notes: Anything else worth knowing    # optional, markdown links allowed
+#     taken: true                           # maintainer only: 💖 training I've taken and liked
+#     used: true                            # maintainer only: ✨ gear or services I've used
+#
+# Checklist of 2025 vendors to look for again: data/2025.yaml
+
+meta:
+  year: 2026
+  title: InfoSec Black Friday Deals 2026 Edition
+  intro: |
+    A yearly list of InfoSec Black Friday deals, plus homelab hardware and other "non-security" tech. No Amazon links, no VPNs, no junk. Every deal was checked to be live when it was added, and I try to keep the garbage out.
+
+    Inspired by [0x90n/InfoSec-Black-Friday](https://github.com/0x90n/InfoSec-Black-Friday) and [CriimBow/InfoSec-Black-Friday](https://github.com/CriimBow/InfoSec-Black-Friday).
+
+    Even if something makes the list, do your due diligence so you aren't getting screwed out of your hard-earned money. **DO YOUR OWN RESEARCH!** Investing in yourself is important, but don't spend money you don't have.
+
+    - Deals are publicly announced and sourced from emails, social media, and sites I like.
+    - No tracking or affiliate links. This isn't monetized.
+    - Each table is sorted by end date, soonest first. Ended deals get struck through and moved to the bottom automatically.
+  credits: []
+
+sections:
+  - id: tools
+    title: Tools
+    emoji: 🔨
+    deals: []
+
+  - id: courses
+    title: Courses & Training
+    emoji: 🎓
+    deals: []
+
+  - id: labs
+    title: Practical Labs
+    emoji: 🧪
+    deals: []
+
+  - id: hardware
+    title: Hardware
+    emoji: 🔧
+    deals: []
+
+  - id: books
+    title: Books
+    emoji: 📕
+    deals: []
+
+  - id: wearables
+    title: Wearables
+    emoji: 👔
+    deals: []
+
+  - id: games
+    title: Games
+    emoji: 💾
+    deals: []
+
+  - id: services
+    title: Services
+    emoji: 🤝🏼
+    deals: []

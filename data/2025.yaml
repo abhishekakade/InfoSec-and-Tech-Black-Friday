@@ -1,0 +1,267 @@
+# 2025 deals, converted from the original README. This year renders to archive/2025.md.
+# Field reference: see CONTRIBUTING.md.
+
+meta:
+  year: 2025
+  title: InfoSec Black Friday Deals 2025 Edition
+  intro: |
+    I went looking for the list I normally use and it didn't seem to be updated, so I took a crack at putting an InfoSec Black Friday list together, with homelab hardware and other "non-security" tech added in. No Amazon links, no VPNs, no junk.
+  credits: []
+
+sections:
+  - id: tools
+    title: Tools
+    emoji: 🔨
+    deals:
+      - vendor: Grayhat Warfare
+        url: https://grayhatwarfare.com/packages
+        deal: Discount on Premium and Enterprise packages
+      - vendor: PortDroid
+        url: https://www.portdroid.net/black-friday-2025/
+        deal: 50% off
+        code: "CYBER_2025"
+      - vendor: ThreatZone
+        url: https://app.threat.zone/
+        deal: 35% off plans
+        code: "HAPPYHOLIDAYS35"
+        ends: 2025-12-31
+      - vendor: Pulsedive
+        url: https://pulsedive.com/purchase/pro
+        deal: 35% off annual or monthly plan for 12 months
+        code: "BLACKFRIDAY25"
+        ends: 2025-12-01
+      - vendor: AdverseMonitor
+        url: https://adversemonitor.com/
+        deal: 75% off the annual Detection plan
+        code: "BLACKFRIDAY2025"
+        ends: 2025-12-31
+
+  - id: courses
+    title: Courses & Training
+    emoji: 🎓
+    deals:
+      - vendor: Antisyphon Pay Forward What You Can
+        url: https://www.antisyphontraining.com/pay-forward-what-you-can/list/
+        deal: Pay-what-you-can training (year-round, not just Black Friday)
+        focus: General
+        notes: "Highly recommended, starts Dec 2: [Getting Started in Security with BHIS and MITRE ATT&CK](https://www.antisyphontraining.com/product/getting-started-in-security-with-bhis-and-mitre-attck-with-john-strand/)"
+        taken: true
+      - vendor: Blue Cape Security
+        url: https://bluecapesecurity.com/#training
+        deal: 25% off
+        code: "BLACKFRIDAY25"
+        ends: 2025-12-03
+        ends_note: midnight PST
+        focus: Blue
+        taken: true
+      - vendor: LetsDefend
+        url: https://letsdefend.io/
+        deal: 50% off annual subscription, or 35% off first month
+        code: ["BLCKFRDY", "BLCKFRDY35"]
+        focus: Blue
+        taken: true
+      - vendor: Level Effect
+        url: https://training.leveleffect.com/catalog
+        deal: Up to 45% off courses and bundles
+        focus: Blue
+      - vendor: DNS for Developers
+        url: https://dnsfordevelopers.com/
+        deal: $49 (normally $149)
+        focus: Dev
+      - vendor: White Knight Labs
+        url: https://training.whiteknightlabs.com/
+        deal: 50% off
+        code: "WKLBLACKFRIDAY50"
+        ends: 2025-12-12
+        focus: Red
+        taken: true
+      - vendor: Altered Security
+        url: https://www.alteredsecurity.com/
+        deal: Up to 20% off bootcamps
+        ends: 2025-12-17
+        focus: Red
+        taken: true
+      - vendor: TrainSec
+        url: https://trainsec.net/cybersecurity-courses-black-friday-2025
+        deal: 40% off individual courses
+        ends: 2025-12-01
+        focus: Security / Dev
+      - vendor: Hexordia Training
+        url: https://learn.hexordia.com/
+        deal: 35% off classes
+        code: "BF25"
+        ends: 2025-12-02
+        focus: Blue
+      - vendor: Cyber 5W
+        url: https://academy.cyber5w.com/
+        deal: 50% off courses
+        code: "blk25"
+        ends: 2025-11-20
+        focus: Blue
+      - vendor: INE
+        url: https://learn.ine.com/promo/black-friday-2025
+        deal: Discount varies, see site
+        ends: 2025-12-04
+        focus: Security / Networking
+      - vendor: WiFi Challenge Academy
+        url: https://academy.wifichallenge.com/
+        deal: 25% off CWP course and exam
+        focus: Red
+      - vendor: OffSec
+        url: https://www.offsec.com/
+        deal: 20% off Learn One
+        focus: Red / Blue
+      - vendor: Blu Raven
+        url: https://academy.bluraven.io/blackfriday2025
+        deal: 35% off
+        code: "BFCM25"
+        focus: Blue
+      - vendor: Evilginx Mastery Course
+        url: https://academy.breakdev.org/evilginx-mastery
+        deal: 50% off
+        code: "BLACKWEEK"
+        focus: Red
+      - vendor: Cloud Security Alliance
+        url: https://e.cloudsecurityalliance.org/cybermonday2025
+        deal: 50% off the cert bundle
+        starts: 2025-12-01
+        ends: 2025-12-01
+        ends_note: starts 12 AM PST
+        focus: Cloud
+      - vendor: Cisco Learning Network Store
+        url: https://learningnetworkstore.cisco.com/
+        deal: 40% off select courses, plus doorbusters Cyber Monday 8 AM–12 PM PT
+        starts: 2025-11-24
+        ends: 2025-12-02
+        focus: Networking
+      - vendor: Maldev Academy
+        url: https://maldevacademy.com/
+        deal: 25% off
+        code: "BLKFRIDAY"
+        focus: Red / Blue
+      - vendor: Security Blue Team
+        url: https://www.securityblue.team/black-friday-2025
+        deal: 20% off BTL1, 50% off BTL2 and CSOM, more on site
+        ends: 2025-12-03
+        focus: Blue
+      - vendor: Codecademy
+        url: https://try.codecademy.com/discounts
+        deal: 60% off subscriptions
+        code: "CYBER2025"
+        ends: 2025-11-28
+        focus: Dev
+      - vendor: Digital Defense Institute
+        url: https://ddi.sh/thvr-bf-2025
+        deal: 40% off
+        code: "blackfriday2025"
+        ends: 2025-11-28
+        taken: true
+      - vendor: Pluralsight
+        url: https://www.pluralsight.com/individuals/pricing
+        deal: 60% off individual subscriptions
+        code: "BLACKFRIDAY60"
+        focus: General
+      - vendor: Red Siege
+        url: https://training.redsiege.com/bundles/a3c39973-99da-4e7e-aaad-2c3b182e55e4
+        deal: On-demand bundle at roughly 50% off single-course pricing; single courses also discounted
+        focus: Red
+      - vendor: Linux Foundation
+        url: https://training.linuxfoundation.org
+        deal: Up to 65% off courses and certs
+        ends: 2025-12-09
+        focus: Linux / Cloud
+      - vendor: Applied Network Defense
+        url: https://networkdefense.io
+        deal: 25% off all courses
+        code: "ALLYALL"
+        ends: 2025-12-02
+        focus: Blue
+
+  - id: labs
+    title: Practical Labs
+    emoji: 🧪
+    deals:
+      - vendor: Hack The Box Pro Labs
+        url: https://www.hackthebox.com/blog/New-pro-labs-discount
+        deal: 25% off Pro Labs annual
+        code: "novprolabsannual25off"
+
+  - id: hardware
+    title: Hardware
+    emoji: 🔧
+    deals:
+      - vendor: Hak5
+        url: https://hak5.org/collections/bfcm
+        deal: Discounts vary, see site
+      - vendor: Covert Instruments
+        url: https://covertinstruments.com/collections/2025-black-friday-sale
+        deal: Up to 50% off
+        used: true
+      - vendor: Practical Physical Exploitation
+        url: https://store.physicalexploit.com/
+        deal: $50 off Stealth Decoy Readers, $75 off Longrange Data Interpreters (no code needed)
+        ends: 2025-12-05
+      - vendor: Minisforum
+        url: https://store.minisforum.com/pages/minisforum-black-friday
+        deal: Discount varies, see site
+        ends: 2025-12-02
+        notes: Great compact homelab boxes
+        used: true
+      - vendor: Geekom
+        url: https://www.geekompc.com/black-friday/
+        deal: Discount varies, see site
+        ends: 2025-12-02
+        notes: Great compact homelab boxes
+      - vendor: Back Market
+        url: https://www.backmarket.com/en-us/e/black-friday
+        deal: Discount varies, see site
+        notes: Refurbished tech marketplace
+      - vendor: DeskPi
+        url: https://deskpi.com/
+        deal: Up to 10% off
+        starts: 2025-11-26
+        ends: 2025-11-30
+        notes: 10-inch homelab racks and more
+        used: true
+      - vendor: UniFi
+        url: https://store.ui.com/us/en/tags/black-friday
+        deal: Discount varies, see site
+        ends: 2025-12-01
+        used: true
+
+  - id: books
+    title: Books
+    emoji: 📕
+    deals:
+      - vendor: "The Homelab Almanac: TTI Edition (Taggart Institute)"
+        url: https://taggartinstitute.org/p/the-homelab-almanac
+        deal: 50% off
+        code: "HOMELABIN2026"
+        used: true
+
+  - id: wearables
+    title: Wearables
+    emoji: 👔
+    deals: []
+
+  - id: games
+    title: Games
+    emoji: 💾
+    deals: []
+
+  - id: services
+    title: Services
+    emoji: 🤝🏼
+    deals:
+      - vendor: Proton Mail
+        url: https://proton.me/mail/black-friday#pricing
+        deal: 50% off annual subscription
+        used: true
+      - vendor: TinyShield
+        url: https://tinyshield.proxyman.com/pricing
+        deal: 60% off
+        notes: Firewall for Mac
+      - vendor: Namecheap
+        url: https://www.namecheap.com/domain-web-hosting-ssl-deals/black-friday/
+        deal: Up to 99% off
+        notes: Buy a domain for that project you probably won't start (I've never done this, I promise)
