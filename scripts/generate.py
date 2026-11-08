@@ -35,7 +35,7 @@ TOP_KEYS = {"meta", "sections"}
 META_KEYS = {"year", "title", "intro", "credits"}
 SECTION_KEYS = {"id", "title", "emoji", "deals"}
 DEAL_KEYS = {"vendor", "url", "deal", "code", "starts", "ends", "ends_note",
-             "focus", "notes", "taken", "used"}
+             "focus", "notes", "via", "taken", "used"}
 REQUIRED_DEAL_KEYS = ("vendor", "url", "deal")
 
 # Query parameters that mean a link is carrying affiliate or tracking info.
@@ -43,6 +43,9 @@ TRACKING_PARAMS = {"ref", "referral", "referrer", "aff", "affid", "aff_id", "aff
                    "affiliate_id", "via", "tag", "partner", "irclickid", "clickid",
                    "gclid", "fbclid", "mc_cid", "mc_eid"}
 BLOCKED_HOSTS = ("amazon.", "amzn.")
+
+# GitHub usernames: letters, digits and single hyphens, no leading/trailing hyphen, max 39 chars.
+GITHUB_HANDLE = re.compile(r"^(?!-)(?!.*--)[A-Za-z0-9-]{1,39}(?<!-)$")
 
 UPDATED_LINE = re.compile(r"^_Last updated: .*_$", re.MULTILINE)
 
@@ -154,6 +157,12 @@ def validate_deal(deal, file: str, where: str, problems: Problems):
     for key in ("ends_note", "focus", "notes"):
         if deal.get(key) is not None and not isinstance(deal[key], str):
             problems.add(file, where, f"'{key}' must be text")
+    via = deal.get("via")
+    if via is not None:
+        handle = via.strip().lstrip("@") if isinstance(via, str) else ""
+        if not GITHUB_HANDLE.match(handle):
+            problems.add(file, where, f"'via' must be a GitHub username like \"@octocat\" (got {via!r})")
+
     for key in ("taken", "used"):
         if key in deal and not isinstance(deal[key], bool):
             problems.add(file, where, f"'{key}' must be true or false")
@@ -170,6 +179,7 @@ def validate_deal(deal, file: str, where: str, problems: Problems):
         "ends_note": text_or_empty(deal.get("ends_note")),
         "focus": text_or_empty(deal.get("focus")),
         "notes": text_or_empty(deal.get("notes")),
+        "via": deal["via"].strip().lstrip("@") if isinstance(deal.get("via"), str) else "",
         "taken": deal.get("taken") is True,
         "used": deal.get("used") is True,
     }
@@ -293,7 +303,7 @@ def render_section(section, year: int, today: dt.date, archive: bool) -> str:
         return "\n".join(lines)
 
     show_focus = any(d["focus"] for d in deals)
-    show_notes = any(d["notes"] for d in deals)
+    show_notes = any(d["notes"] or d["via"] for d in deals)
     headers = ["Vendor", "Deal", "Code", "Dates"]
     headers += ["Focus"] if show_focus else []
     headers += ["Notes"] if show_notes else []
@@ -318,7 +328,10 @@ def render_section(section, year: int, today: dt.date, archive: bool) -> str:
         if show_focus:
             cells.append(esc(deal["focus"]))
         if show_notes:
-            cells.append(esc(deal["notes"]))
+            parts = [esc(deal["notes"])] if deal["notes"] else []
+            if deal["via"]:
+                parts.append(f"via [@{deal['via']}](https://github.com/{deal['via']})")
+            cells.append(" · ".join(parts))
         lines.append("| " + " | ".join(cells) + " |")
     return "\n".join(lines)
 
