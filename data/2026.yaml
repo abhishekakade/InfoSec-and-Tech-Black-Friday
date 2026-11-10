@@ -77,7 +77,21 @@ sections:
   - id: labs
     title: Practical Labs
     emoji: 🧪
-    deals: []
+    deals:
+      - vendor: LabEx Pro (1 Year)
+        url: https://labex.io/checkout?type=2&coupon=2026BF30
+        deal: 30% off one-year membership
+        code: "2026BF30"
+        ends: 2026-12-07
+        focus: Security / Linux / DevOps / Cloud
+        notes: Browser-based hands-on labs. Available to new and existing users; code is active now.
+      - vendor: LabEx Pro (2 Years)
+        url: https://labex.io/checkout?type=4&coupon=2026BF50
+        deal: 50% off two-year membership
+        code: "2026BF50"
+        ends: 2026-12-07
+        focus: Security / Linux / DevOps / Cloud
+        notes: Browser-based hands-on labs. Available to new and existing users; code is active now.
 
   - id: hardware
     title: Hardware
