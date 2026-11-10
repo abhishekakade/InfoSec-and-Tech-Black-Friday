@@ -33,7 +33,15 @@ sections:
   - id: tools
     title: Tools
     emoji: 🔨
-    deals: []
+    deals:
+      - vendor: Scanify
+        url: https://scanify.to/pricing?code=BFPRO
+        deal: 50% off Pro for 3 months ($10/mo instead of $20)
+        code: "BFPRO"
+        ends: 2026-12-09
+        focus: Blue
+        notes: Link, file, QR code and IP checker with 95+ antivirus engines, domain age, redirects and a sandbox screenshot. Renews at $20/mo, cancel anytime.
+        via: "@techkar1m"
 
   - id: courses
     title: Courses & Training
