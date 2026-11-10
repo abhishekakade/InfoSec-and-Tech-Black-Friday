@@ -13,7 +13,7 @@ Even if something makes the list, do your due diligence so you aren't getting sc
 
 **Legend:** 💖 training I've taken and liked · ✨ gear or services I've used · ~~struck through~~ means the deal has ended
 
-_Last updated: Nov 8, 2026 10:04 PST_
+_Last updated: Nov 9, 2026 17:02 PST_
 
 ## Table of contents
 
@@ -37,9 +37,11 @@ _Nothing yet. Know of a deal? See [Contribute](#contribute)._
 
 | Vendor | Deal | Code | Dates | Focus |
 |---|---|---|---|---|
+| [Blue Raven](https://academy.bluraven.io/courses) | Up to 40% off Courses | — | Nov 30 | Blue |
 | [Just Hacking Training](https://www.justhacking.com/types/courses-and-paths) | 25% off | `BFF25` | Nov 30 | Red/Blue |
 | [Practical DevSecOps](https://www.practical-devsecops.com/black-friday-sale-2026/) 💖 | 15% off certs, up to $600 off bundles | — | Nov 30 | Security / AI |
 | [TrainSec](https://trainsec.net/cybersecurity-courses-black-friday-2026/) 💖 | 40% off individual courses and plans | `BF2026` | Nov 30 | Security / Dev |
+| [Antisyphon Training](https://www.antisyphontraining.com/events/category/pay-forward-what-you-can/list/) 💖 | Not a black Friday Sale, but pay what you can on select courses year round | — | — | Red/Blue/AI |
 
 ## Practical Labs
 
@@ -49,7 +51,7 @@ _Nothing yet. Know of a deal? See [Contribute](#contribute)._
 
 | Vendor | Deal | Code | Dates | Notes |
 |---|---|---|---|---|
-| [Minis Forum](https://store.minisforum.com/pages/minisforum-black-friday) ✨ | Discount varies daily, see site | — | Nov 11 – Nov 30 | refurb phones and hardware for labs |
+| [Minis Forum](https://store.minisforum.com/pages/minisforum-black-friday) ✨ | Discount varies daily, see site | — | Nov 11 – Nov 30 | Great compact homelab boxes |
 | [Back Market](https://www.backmarket.com/en-us/e/black-friday) | Discount varies daily, see site | — | Dec 1 | refurb phones and hardware for labs |
 | [Geekom](https://www.geekompc.com/black-friday/) | Discount varies daily, see site | — | Dec 1 | Great compact homelab boxes |
 
@@ -76,7 +78,9 @@ _Nothing yet. Know of a deal? See [Contribute](#contribute)._
 
 ## Services
 
-_Nothing yet. Know of a deal? See [Contribute](#contribute)._
+| Vendor | Deal | Code | Dates |
+|---|---|---|---|
+| [Proton Mail](https://proton.me/mail/black-friday) ✨ | 50% off annual subscription | — | — |
 
 ## Contribute
 
