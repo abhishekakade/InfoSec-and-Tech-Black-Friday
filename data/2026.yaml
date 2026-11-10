@@ -139,7 +139,7 @@ sections:
     title: Services
     emoji: 🤝🏼
     deals: 
-  - vendor: Proton Mail
+      - vendor: Proton Mail
         url: https://proton.me/mail/black-friday
         deal: 50% off annual subscription
         ends: 
