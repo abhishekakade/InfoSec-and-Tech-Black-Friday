@@ -59,6 +59,20 @@ sections:
         ends: 2026-11-30
         focus: Red/Blue
         taken: false
+      - vendor: Blue Raven
+        url: https://academy.bluraven.io/courses
+        deal: Up to 40% off Courses
+        code: 
+        ends: 2026-11-30
+        focus: Blue
+        taken: false
+      - vendor: Antisyphon Training 
+        url: https://www.antisyphontraining.com/events/category/pay-forward-what-you-can/list/
+        deal: Not a black Friday Sale, but pay what you can on select courses year round
+        code: 
+        ends: 
+        focus: Red/Blue/AI
+        taken: true
 
   - id: labs
     title: Practical Labs
@@ -84,7 +98,7 @@ sections:
         deal: Discount varies daily, see site
         starts: 2026-11-11
         ends: 2026-11-30
-        notes: refurb phones and hardware for labs
+        notes: Great compact homelab boxes
         used: true
         
   - id: maker
@@ -124,4 +138,9 @@ sections:
   - id: services
     title: Services
     emoji: 🤝🏼
-    deals: []
+    deals: 
+  - vendor: Proton Mail
+        url: https://proton.me/mail/black-friday
+        deal: 50% off annual subscription
+        ends: 
+        used: true  
