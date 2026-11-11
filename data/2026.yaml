@@ -42,6 +42,12 @@ sections:
         focus: Blue
         notes: Link, file, QR code and IP checker with 95+ antivirus engines, domain age, redirects and a sandbox screenshot. Renews at $20/mo, cancel anytime.
         via: "@techkar1m"
+      - vendor: Vulnsy
+        url: https://www.vulnsy.com/
+        deal: 50% off Pro for 6 months 
+        code: "BLACKFRIDAY"
+        ends: 2026-12-31
+        focus: Red
 
   - id: courses
     title: Courses & Training
@@ -111,6 +117,18 @@ sections:
         ends: 2026-11-30
         focus: Red
         taken: true
+      - vendor: Hack Tricks Training
+        url: https://hacktricks-training.com/
+        deal: 20% of courses, 15% off labs & exams, 10% off bundles
+        code: 
+        ends: 2026-11-30
+        focus: Red
+      - vendor: VantagePoint
+        url: https://vantagepoint.enciphers.com/
+        deal: 70% of hacking labs and certifications
+        code: 
+        ends: 2026-11-30
+        focus: Red  
 
   - id: labs
     title: Practical Labs
