@@ -5,6 +5,9 @@ Usage:
   python scripts/generate.py                     validate, then write the markdown files
   python scripts/generate.py --validate          validate only (what pull requests run)
   python scripts/generate.py --today 2026-12-02  pretend it's another day (to preview expiry)
+  python scripts/generate.py --validate --base /tmp/base-2026.yaml
+                                                 also reject newly added deals that already ended
+                                                 (pass the main-branch copy of the data file)
 
 The newest data/<year>.yaml becomes README.md. Every older year becomes archive/<year>.md.
 """
@@ -34,20 +37,44 @@ TIMEZONE = ZoneInfo("America/Los_Angeles")
 TOP_KEYS = {"meta", "sections"}
 META_KEYS = {"year", "title", "intro", "credits"}
 SECTION_KEYS = {"id", "title", "emoji", "deals"}
-DEAL_KEYS = {"vendor", "url", "deal", "code", "starts", "ends", "ends_note",
+DEAL_KEYS = {"vendor", "url", "deal", "code", "starts", "ends", "ends_note", "evergreen",
              "focus", "notes", "via", "taken", "used"}
 REQUIRED_DEAL_KEYS = ("vendor", "url", "deal")
 
+# Dates further than this past the list's year are almost certainly typos (2062 for 2026).
+MAX_YEARS_AHEAD = 1
+
 # Query parameters that mean a link is carrying affiliate or tracking info.
+# Matched case-insensitively. Don't add "coupon" or "code": vendors use those legitimately.
 TRACKING_PARAMS = {"ref", "referral", "referrer", "aff", "affid", "aff_id", "affiliate",
-                   "affiliate_id", "via", "tag", "partner", "irclickid", "clickid",
-                   "gclid", "fbclid", "mc_cid", "mc_eid"}
-BLOCKED_HOSTS = ("amazon.", "amzn.")
+                   "affiliate_id", "via", "tag", "partner", "irclickid", "irgwc", "clickid",
+                   "gclid", "fbclid", "msclkid", "mc_cid", "mc_eid", "mkt_tok", "_ga", "_gl",
+                   "ranmid", "raneaid", "ransiteid", "subid", "sub_id", "pk_campaign"}
+TRACKING_PREFIXES = ("utm_", "ref_", "aff_")
+
+# Amazon in any form (amazon.com, smile.amazon.co.uk, amzn.to).
+AMAZON_HOST = re.compile(r"(^|\.)(amazon|amzn)\.")
+# Matched as the whole host or as a parent domain (sjv.io blocks humblebundleinc.sjv.io),
+# never as a loose substring, so "a.co" doesn't also block "pizza.co".
+AMAZON_DOMAINS = {"a.co"}
+# Open marketplaces: anyone can list, sellers and prices shift, counterfeits are common.
+# Any country domain or short-link domain (ebay.de, ebay.us, aliexpress.us, temu.to).
+# Indie hardware marketplaces like Tindie and Lectronz are deliberately not blocked.
+MARKETPLACE_HOST = re.compile(r"(^|\.)(ebay|aliexpress|alibaba|temu|dhgate|walmart)\.")
+MARKETPLACE_DOMAINS = {"wish.com"}
+AFFILIATE_DOMAINS = {"sjv.io", "pxf.io", "awin1.com", "shareasale.com", "linksynergy.com",
+                     "skimresources.com", "anrdoezrs.net", "dpbolvw.net", "jdoqocy.com",
+                     "tkqlhce.com", "kqzyfj.com", "impact.com", "partnerize.com", "prf.hn",
+                     "go2cloud.org"}
+SHORTENER_DOMAINS = {"bit.ly", "tinyurl.com", "biturl.top", "t.co", "ow.ly", "buff.ly",
+                     "rebrand.ly", "cutt.ly", "is.gd", "shorturl.at", "lnkd.in", "t.ly"}
 
 # GitHub usernames: letters, digits and single hyphens, no leading/trailing hyphen, max 39 chars.
 GITHUB_HANDLE = re.compile(r"^(?!-)(?!.*--)[A-Za-z0-9-]{1,39}(?<!-)$")
 
-UPDATED_LINE = re.compile(r"^_Last updated: .*_$", re.MULTILINE)
+# Accepts both _underscore_ and *asterisk* italics, so the no-op check works whichever
+# the template uses.
+UPDATED_LINE = re.compile(r"^[_*]Last updated: .*[_*]$", re.MULTILINE)
 
 
 class DataLoader(yaml.SafeLoader):
@@ -98,17 +125,41 @@ def text_or_empty(value) -> str:
     return value.strip() if isinstance(value, str) else ""
 
 
+def host_in(host: str, domains: set[str]) -> bool:
+    """True if host is one of the domains or a subdomain of one."""
+    return any(host == d or host.endswith("." + d) for d in domains)
+
+
+def normalize_url(url: str) -> str:
+    """Comparison key for duplicate checks: case-insensitive host, no trailing slash, no fragment."""
+    p = urlparse(url.strip())
+    host = (p.hostname or "").lower().removeprefix("www.")
+    path = p.path.rstrip("/")
+    return f"{host}{path}?{p.query}" if p.query else f"{host}{path}"
+
+
 def check_url(url: str, file: str, where: str, problems: Problems) -> bool:
     parsed = urlparse(url)
-    if parsed.scheme not in ("https", "http") or not parsed.netloc:
-        problems.add(file, where, f"url must be a full link starting with https:// (got {url!r})")
+    if parsed.scheme != "https" or not parsed.netloc:
+        problems.add(file, where, f"url must be a full https:// link (got {url!r})")
         return False
     host = (parsed.hostname or "").lower()
-    if any(blocked in host for blocked in BLOCKED_HOSTS):
+    if AMAZON_HOST.search(host) or host_in(host, AMAZON_DOMAINS):
         problems.add(file, where, "Amazon links aren't accepted on this list")
         return False
+    if MARKETPLACE_HOST.search(host) or host_in(host, MARKETPLACE_DOMAINS):
+        problems.add(file, where, f"{host} is an open marketplace; link to the vendor's own store")
+        return False
+    if host_in(host, AFFILIATE_DOMAINS):
+        problems.add(file, where, f"{host} is an affiliate redirect; link to the vendor's own page")
+        return False
+    if host_in(host, SHORTENER_DOMAINS):
+        problems.add(file, where, f"{host} is a link shortener; use the full vendor link so readers "
+                                  "can see where it goes")
+        return False
     tracking = sorted({key for key, _ in parse_qsl(parsed.query, keep_blank_values=True)
-                       if key.lower() in TRACKING_PARAMS or key.lower().startswith("utm_")})
+                       if key.lower() in TRACKING_PARAMS
+                       or key.lower().startswith(TRACKING_PREFIXES)})
     if tracking:
         problems.add(file, where, f"url has tracking/affiliate parameters ({', '.join(tracking)}); "
                                   "please link to the plain page")
@@ -116,7 +167,8 @@ def check_url(url: str, file: str, where: str, problems: Problems) -> bool:
     return True
 
 
-def validate_deal(deal, file: str, where: str, problems: Problems):
+def validate_deal(deal, file: str, where: str, problems: Problems, year: int,
+                  today: dt.date, base_urls: set[str] | None, require_ends: bool):
     if not isinstance(deal, dict):
         problems.add(file, where, "each deal must be a mapping (vendor:, url:, deal:, ...)")
         return None
@@ -139,7 +191,10 @@ def validate_deal(deal, file: str, where: str, problems: Problems):
     codes = []
     for code in raw_codes:
         if isinstance(code, str) and code.strip():
-            codes.append(code.strip())
+            if "`" in code or "|" in code:
+                problems.add(file, where, f"code {code!r} can't contain ` or |")
+            else:
+                codes.append(code.strip())
         else:
             # YAML turns NO/YES/ON into booleans and 0042 into 42, so codes must be quoted.
             problems.add(file, where, f"a code isn't text (YAML read it as {code!r}); put it in quotes, e.g. code: \"BF26\"")
@@ -151,8 +206,28 @@ def validate_deal(deal, file: str, where: str, problems: Problems):
         except (ValueError, TypeError):
             problems.add(file, where, f"'{key}' must be a date written like 2026-12-01")
             dates[key] = None
+        if dates[key] and not (year - 1 <= dates[key].year <= year + MAX_YEARS_AHEAD):
+            problems.add(file, where, f"'{key}' is {dates[key].isoformat()}; check the year "
+                                      f"(this is the {year} list)")
     if dates["starts"] and dates["ends"] and dates["starts"] > dates["ends"]:
         problems.add(file, where, "'starts' is after 'ends'")
+
+    evergreen = deal.get("evergreen")
+    if evergreen is not None and not isinstance(evergreen, bool):
+        problems.add(file, where, "'evergreen' must be true or false")
+    evergreen = evergreen is True
+    if evergreen and dates["ends"]:
+        problems.add(file, where, "a deal can't have both 'ends' and 'evergreen: true'")
+    # A malformed 'ends' was already reported above, so only flag a truly missing one.
+    if require_ends and not evergreen and deal.get("ends") is None:
+        problems.add(file, where, "'ends' is required so the deal expires on its own; if it really "
+                                  "has no end date (e.g. a year-round program), set 'evergreen: true'")
+
+    # Only checked when we know which deals are new (--base), so old expired rows don't fail.
+    if (base_urls is not None and dates["ends"] and dates["ends"] < today
+            and isinstance(deal.get("url"), str)
+            and normalize_url(deal["url"]) not in base_urls):
+        problems.add(file, where, f"this deal already ended on {dates['ends'].isoformat()}")
 
     for key in ("ends_note", "focus", "notes"):
         if deal.get(key) is not None and not isinstance(deal[key], str):
@@ -176,6 +251,7 @@ def validate_deal(deal, file: str, where: str, problems: Problems):
         "codes": codes,
         "starts": dates["starts"],
         "ends": dates["ends"],
+        "evergreen": evergreen,
         "ends_note": text_or_empty(deal.get("ends_note")),
         "focus": text_or_empty(deal.get("focus")),
         "notes": text_or_empty(deal.get("notes")),
@@ -185,7 +261,8 @@ def validate_deal(deal, file: str, where: str, problems: Problems):
     }
 
 
-def validate_file(path: Path, data, problems: Problems):
+def validate_file(path: Path, data, problems: Problems, today: dt.date,
+                  base_urls: set[str] | None = None, current: bool = True):
     file = str(path.relative_to(ROOT))
     if not isinstance(data, dict):
         problems.add(file, "top level", "must be a mapping with 'meta' and 'sections'")
@@ -215,6 +292,7 @@ def validate_file(path: Path, data, problems: Problems):
         return None
 
     out_sections, seen_ids = [], set()
+    seen_urls: dict[str, str] = {}  # normalized url -> where it first appeared
     for i, section in enumerate(sections):
         where = f"sections[{i}]"
         if not isinstance(section, dict):
@@ -236,12 +314,25 @@ def validate_file(path: Path, data, problems: Problems):
         if not isinstance(deals, list):
             problems.add(file, where, "'deals' must be a list")
             deals = []
-        clean = [validate_deal(d, file, f"{where}, deal #{n}", problems) for n, d in enumerate(deals, 1)]
+        clean = []
+        for n, d in enumerate(deals, 1):
+            deal_where = f"{where}, deal #{n}"
+            result = validate_deal(d, file, deal_where, problems, year, today, base_urls,
+                                   require_ends=current)
+            if result:
+                key = normalize_url(result["url"])
+                if key in seen_urls:
+                    problems.add(file, f"{deal_where} ({result['vendor']})",
+                                 f"same link as {seen_urls[key]}; merge them or use a more "
+                                 "specific link")
+                else:
+                    seen_urls[key] = f"{deal_where} ({result['vendor']})"
+                clean.append(result)
         out_sections.append({
             "id": sid,
             "title": text_or_empty(section.get("title")) or sid,
             "emoji": text_or_empty(section.get("emoji")),
-            "deals": [d for d in clean if d],
+            "deals": clean,
         })
 
     return {
@@ -253,11 +344,39 @@ def validate_file(path: Path, data, problems: Problems):
     }
 
 
+def load_base_urls(path: Path) -> tuple[int | None, set[str]]:
+    """Read the main-branch copy of a data file and return (year, normalized urls).
+
+    A missing or unreadable base just means there's nothing to compare against
+    (e.g. the first PR of a new year), so every deal counts as new.
+    """
+    try:
+        data = yaml.load(path.read_text(encoding="utf-8"), Loader=DataLoader)
+    except (OSError, yaml.YAMLError):
+        return None, set()
+    if not isinstance(data, dict):
+        return None, set()
+    meta = data.get("meta") if isinstance(data.get("meta"), dict) else {}
+    year = meta.get("year") if isinstance(meta.get("year"), int) else None
+    urls = set()
+    for section in data.get("sections") or []:
+        if isinstance(section, dict):
+            for deal in section.get("deals") or []:
+                if isinstance(deal, dict) and isinstance(deal.get("url"), str):
+                    urls.add(normalize_url(deal["url"]))
+    return year, urls
+
+
 # --------------------------------------------------------------------------- rendering
 
 def esc(text: str) -> str:
     """Keep text from breaking a markdown table row."""
     return text.replace("|", "\\|").replace("\n", " ")
+
+
+def esc_link_text(text: str) -> str:
+    """Like esc(), plus brackets, which would end the [link text] early."""
+    return esc(text).replace("[", "\\[").replace("]", "\\]")
 
 
 def link_target(url: str) -> str:
@@ -283,7 +402,10 @@ def dates_cell(deal, year: int, expired: bool) -> str:
     if expired:
         return f"Ended {fmt_date(ends, year)}"
     if ends is None:
-        text = f"From {fmt_date(starts, year)}" if starts else "—"
+        if deal["evergreen"]:
+            text = f"Ongoing from {fmt_date(starts, year)}" if starts else "Ongoing"
+        else:
+            text = f"From {fmt_date(starts, year)}" if starts else "—"
     elif starts and starts == ends:
         text = f"{fmt_date(ends, year)} only"
     elif starts:
@@ -317,7 +439,7 @@ def render_section(section, year: int, today: dt.date, archive: bool) -> str:
         expired = is_expired(deal, today, archive)
         strike = (lambda s: f"~~{s}~~") if expired else (lambda s: s)
         marks = ("💖" if deal["taken"] else "") + ("✨" if deal["used"] else "")
-        vendor = strike(f"[{esc(deal['vendor'])}]({link_target(deal['url'])})")
+        vendor = strike(f"[{esc_link_text(deal['vendor'])}]({link_target(deal['url'])})")
         codes = "<br>".join(strike(f"`{c}`") for c in deal["codes"]) or "—"
         cells = [
             f"{vendor} {marks}".strip(),
@@ -371,6 +493,9 @@ def render(doc, template: str, today: dt.date, updated: str, archive: bool,
 
 def write_if_changed(path: Path, content: str) -> bool:
     """Skip the write when only the 'Last updated' line would differ."""
+    if not UPDATED_LINE.search(content):
+        print(f"warning: no 'Last updated' line found in output for {path.name}; "
+              "the no-op check compares the whole file", file=sys.stderr)
     if path.exists():
         old = path.read_text(encoding="utf-8")
         if UPDATED_LINE.sub("", old) == UPDATED_LINE.sub("", content):
@@ -386,11 +511,20 @@ def main(argv=None) -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--validate", action="store_true", help="check the YAML files without writing anything")
     parser.add_argument("--today", help="override today's date (YYYY-MM-DD) to preview expiry")
+    parser.add_argument("--base", action="append", default=[], metavar="FILE",
+                        help="main-branch copy of a data file; deals not in it are treated as new "
+                             "and rejected if they already ended (repeatable)")
     args = parser.parse_args(argv)
 
     now = dt.datetime.now(TIMEZONE)
     today = dt.date.fromisoformat(args.today) if args.today else now.date()
     updated = f"{now:%b} {now.day}, {now:%Y %H:%M %Z}"
+
+    base_by_year: dict[int, set[str]] = {}
+    for base in args.base:
+        year, urls = load_base_urls(Path(base))
+        if year is not None:
+            base_by_year[year] = urls
 
     problems = Problems()
     docs = {}
@@ -398,13 +532,17 @@ def main(argv=None) -> int:
     if not paths:
         print("No data/<year>.yaml files found.", file=sys.stderr)
         return 1
+    newest = max(int(p.stem) for p in paths)
     for path in paths:
         try:
             data = yaml.load(path.read_text(encoding="utf-8"), Loader=DataLoader)
         except yaml.YAMLError as err:
             problems.add(str(path.relative_to(ROOT)), "YAML syntax", str(err).replace("\n", " "))
             continue
-        doc = validate_file(path, data, problems)
+        # With --base given, a year with no base file (e.g. a brand-new year) has every deal new.
+        base_urls = base_by_year.get(int(path.stem), set()) if args.base else None
+        # Only the live list needs end dates; archives stay as they were written.
+        doc = validate_file(path, data, problems, today, base_urls, current=int(path.stem) == newest)
         if doc:
             docs[doc["year"]] = doc
 
