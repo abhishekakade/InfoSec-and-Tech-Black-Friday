@@ -78,7 +78,7 @@ sections:
         url: https://www.antisyphontraining.com/events/category/pay-forward-what-you-can/list/
         deal: Not a black Friday Sale, but pay what you can on select courses year round
         code: 
-        ends: 
+        evergreen: true
         focus: Red/Blue/AI
         taken: true
       - vendor: "Practical Networking"
@@ -100,7 +100,7 @@ sections:
         url: https://maldevacademy.com/
         deal: 25% off courses
         code: "BLKFRIDAY25"
-        ends: 
+        ends: 2026-11-30
         focus: Red/Blue
         taken: true
 
@@ -219,5 +219,5 @@ sections:
       - vendor: Proton Mail
         url: https://proton.me/mail/black-friday
         deal: 50% off annual subscription
-        ends: 
-        used: true  
+        ends: 2026-11-30
+        used: true
