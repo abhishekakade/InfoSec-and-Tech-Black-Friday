@@ -33,7 +33,15 @@ sections:
   - id: tools
     title: Tools
     emoji: 🔨
-    deals: []
+    deals:
+      - vendor: Scanify
+        url: https://scanify.to/pricing?code=BFPRO
+        deal: 50% off Pro for 3 months ($10/mo instead of $20)
+        code: "BFPRO"
+        ends: 2026-12-09
+        focus: Blue
+        notes: Link, file, QR code and IP checker with 95+ antivirus engines, domain age, redirects and a sandbox screenshot. Renews at $20/mo, cancel anytime.
+        via: "@techkar1m"
 
   - id: courses
     title: Courses & Training
@@ -59,7 +67,7 @@ sections:
         ends: 2026-11-30
         focus: Red/Blue
         taken: false
-      - vendor: Blue Raven
+      - vendor: Blu Raven
         url: https://academy.bluraven.io/courses
         deal: Up to 40% off Courses
         code: 
@@ -72,6 +80,28 @@ sections:
         code: 
         ends: 
         focus: Red/Blue/AI
+        taken: true
+      - vendor: "Practical Networking"
+        url: https://classes.pracnet.net/courses/practical-tls?coupon=BF2026TLS
+        deal: "Practical TLS: 83% off -- only $50, originally $297"
+        code: "BF2026TLS"
+        ends: 2026-12-06
+        focus: "Networking / Security"
+        notes: "SSL/TLS deep dive including TLS 1.3, PKI, and 40+ OpenSSL/Wireshark labs"
+        via: "@erh-git"
+      - vendor: OffSec
+        url: https://portal.offsec.com/checkout/?view=learn-one
+        deal: $550 off Learn One Courses
+        code: 
+        ends: 2027-01-04
+        focus: Red/Blue
+        taken: true
+      - vendor: MalDev Academy
+        url: https://maldevacademy.com/
+        deal: 25% off courses
+        code: "BLKFRIDAY25"
+        ends: 
+        focus: Red/Blue
         taken: true
 
   - id: labs
@@ -92,6 +122,13 @@ sections:
         ends: 2026-12-07
         focus: Security / Linux / DevOps / Cloud
         notes: Browser-based hands-on labs. Available to new and existing users; code is active now.
+    deals: 
+      - vendor: Iximiuz Labs
+        url: https://labs.iximiuz.com/
+        deal: Discounted Lifetime and Annual Subscriptions
+        ends: 2026-11-30
+        focus: General
+        taken: true
 
   - id: hardware
     title: Hardware
@@ -114,6 +151,16 @@ sections:
         ends: 2026-11-30
         notes: Great compact homelab boxes
         used: true
+      - vendor: Hak5
+        url: https://hak5.org/pages/hacked-november
+        deal: Discount varies, see site
+        ends: 2026-11-30
+        used: true
+      - vendor: UniFi
+        url: https://store.ui.com/us/en/tags/black-friday
+        deal: Discount varies, see site
+        ends: 2026-11-30
+        used: true    
         
   - id: maker
     title: 3D Printing & Maker
@@ -132,7 +179,13 @@ sections:
   - id: books
     title: Books
     emoji: 📕
-    deals: []
+    deals: 
+      - vendor: The CloudSec Engineer
+        url: https://engineer.cloudsecbooks.com/
+        deal: 20% off
+        code: CYBERNOVEMBER26
+        ends: 2026-11-30
+    
 
   - id: wearables
     title: Wearables

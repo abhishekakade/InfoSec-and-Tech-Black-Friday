@@ -13,7 +13,7 @@ Even if something makes the list, do your due diligence so you aren't getting sc
 
 **Legend:** 💖 training I've taken and liked · ✨ gear or services I've used · ~~struck through~~ means the deal has ended
 
-_Last updated: Nov 9, 2026 17:02 PST_
+_Last updated: Nov 10, 2026 17:45 PST_
 
 ## Table of contents
 
@@ -31,27 +31,36 @@ _Last updated: Nov 9, 2026 17:02 PST_
 
 ## Tools
 
-_Nothing yet. Know of a deal? See [Contribute](#contribute)._
+| Vendor | Deal | Code | Dates | Focus | Notes |
+|---|---|---|---|---|---|
+| [Scanify](https://scanify.to/pricing?code=BFPRO) | 50% off Pro for 3 months ($10/mo instead of $20) | `BFPRO` | Dec 9 | Blue | Link, file, QR code and IP checker with 95+ antivirus engines, domain age, redirects and a sandbox screenshot. Renews at $20/mo, cancel anytime. · via [@techkar1m](https://github.com/techkar1m) |
 
 ## Courses & Training
 
-| Vendor | Deal | Code | Dates | Focus |
-|---|---|---|---|---|
-| [Blue Raven](https://academy.bluraven.io/courses) | Up to 40% off Courses | — | Nov 30 | Blue |
-| [Just Hacking Training](https://www.justhacking.com/types/courses-and-paths) | 25% off | `BFF25` | Nov 30 | Red/Blue |
-| [Practical DevSecOps](https://www.practical-devsecops.com/black-friday-sale-2026/) 💖 | 15% off certs, up to $600 off bundles | — | Nov 30 | Security / AI |
-| [TrainSec](https://trainsec.net/cybersecurity-courses-black-friday-2026/) 💖 | 40% off individual courses and plans | `BF2026` | Nov 30 | Security / Dev |
-| [Antisyphon Training](https://www.antisyphontraining.com/events/category/pay-forward-what-you-can/list/) 💖 | Not a black Friday Sale, but pay what you can on select courses year round | — | — | Red/Blue/AI |
+| Vendor | Deal | Code | Dates | Focus | Notes |
+|---|---|---|---|---|---|
+| [Blu Raven](https://academy.bluraven.io/courses) | Up to 40% off Courses | — | Nov 30 | Blue |  |
+| [Just Hacking Training](https://www.justhacking.com/types/courses-and-paths) | 25% off | `BFF25` | Nov 30 | Red/Blue |  |
+| [Practical DevSecOps](https://www.practical-devsecops.com/black-friday-sale-2026/) 💖 | 15% off certs, up to $600 off bundles | — | Nov 30 | Security / AI |  |
+| [TrainSec](https://trainsec.net/cybersecurity-courses-black-friday-2026/) 💖 | 40% off individual courses and plans | `BF2026` | Nov 30 | Security / Dev |  |
+| [Practical Networking](https://classes.pracnet.net/courses/practical-tls?coupon=BF2026TLS) | Practical TLS: 83% off -- only $50, originally $297 | `BF2026TLS` | Dec 6 | Networking / Security | SSL/TLS deep dive including TLS 1.3, PKI, and 40+ OpenSSL/Wireshark labs · via [@erh-git](https://github.com/erh-git) |
+| [OffSec](https://portal.offsec.com/checkout/?view=learn-one) 💖 | $550 off Learn One Courses | — | Jan 4, 2027 | Red/Blue |  |
+| [Antisyphon Training](https://www.antisyphontraining.com/events/category/pay-forward-what-you-can/list/) 💖 | Not a black Friday Sale, but pay what you can on select courses year round | — | — | Red/Blue/AI |  |
+| [MalDev Academy](https://maldevacademy.com/) 💖 | 25% off courses | `BLKFRIDAY25` | — | Red/Blue |  |
 
 ## Practical Labs
 
-_Nothing yet. Know of a deal? See [Contribute](#contribute)._
+| Vendor | Deal | Code | Dates | Focus |
+|---|---|---|---|---|
+| [Iximiuz Labs](https://labs.iximiuz.com/) 💖 | Discounted Lifetime and Annual Subscriptions | — | Nov 30 | General |
 
 ## Hardware
 
 | Vendor | Deal | Code | Dates | Notes |
 |---|---|---|---|---|
+| [Hak5](https://hak5.org/pages/hacked-november) ✨ | Discount varies, see site | — | Nov 30 |  |
 | [Minis Forum](https://store.minisforum.com/pages/minisforum-black-friday) ✨ | Discount varies daily, see site | — | Nov 11 – Nov 30 | Great compact homelab boxes |
+| [UniFi](https://store.ui.com/us/en/tags/black-friday) ✨ | Discount varies, see site | — | Nov 30 |  |
 | [Back Market](https://www.backmarket.com/en-us/e/black-friday) | Discount varies daily, see site | — | Dec 1 | refurb phones and hardware for labs |
 | [Geekom](https://www.geekompc.com/black-friday/) | Discount varies daily, see site | — | Dec 1 | Great compact homelab boxes |
 
@@ -64,7 +73,9 @@ _Nothing yet. Know of a deal? See [Contribute](#contribute)._
 
 ## Books
 
-_Nothing yet. Know of a deal? See [Contribute](#contribute)._
+| Vendor | Deal | Code | Dates |
+|---|---|---|---|
+| [The CloudSec Engineer](https://engineer.cloudsecbooks.com/) | 20% off | `CYBERNOVEMBER26` | Nov 30 |
 
 ## Wearables
 
