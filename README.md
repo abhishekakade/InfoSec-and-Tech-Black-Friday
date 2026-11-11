@@ -13,7 +13,9 @@ Even if something makes the list, do your due diligence so you aren't getting sc
 
 **Legend:** 💖 training I've taken and liked · ✨ gear or services I've used · ~~struck through~~ means the deal has ended
 
-_Last updated: Nov 11, 2026 03:47 PST_
+**24 active deals** of 24 listed
+
+_Last updated: Nov 11, 2026 03:52 PST_
 
 ## Table of contents
 
