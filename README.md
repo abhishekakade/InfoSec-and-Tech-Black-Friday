@@ -13,9 +13,9 @@ Even if something makes the list, do your due diligence so you aren't getting sc
 
 **Legend:** 💖 training I've taken and liked · ✨ gear or services I've used · ~~struck through~~ means the deal has ended
 
-**26 active deals** of 26 listed
+**29 active deals** of 29 listed
 
-_Last updated: Nov 11, 2026 15:05 PST_
+_Last updated: Nov 11, 2026 15:37 PST_
 
 ## Table of contents
 
@@ -36,16 +36,19 @@ _Last updated: Nov 11, 2026 15:05 PST_
 | Vendor | Deal | Code | Dates | Focus | Notes |
 |---|---|---|---|---|---|
 | [Scanify](https://scanify.to/pricing?code=BFPRO) | 50% off Pro for 3 months ($10/mo instead of $20) | `BFPRO` | Dec 9 | Blue | Link, file, QR code and IP checker with 95+ antivirus engines, domain age, redirects and a sandbox screenshot. Renews at $20/mo, cancel anytime. · via [@techkar1m](https://github.com/techkar1m) |
+| [Vulnsy](https://www.vulnsy.com/) | 50% off Pro for 6 months | `BLACKFRIDAY` | Dec 31 | Red |  |
 
 ## Courses & Training
 
 | Vendor | Deal | Code | Dates | Focus | Notes |
 |---|---|---|---|---|---|
 | [Blu Raven](https://academy.bluraven.io/courses) | Up to 40% off Courses | — | Nov 30 | Blue |  |
+| [Hack Tricks Training](https://hacktricks-training.com/) | 20% of courses, 15% off labs & exams, 10% off bundles | — | Nov 30 | Red |  |
 | [Just Hacking Training](https://www.justhacking.com/types/courses-and-paths) | 25% off | `BFF25` | Nov 30 | Red/Blue |  |
 | [MalDev Academy](https://maldevacademy.com/) 💖 | 25% off courses | `BLKFRIDAY25` | Nov 30 | Red/Blue |  |
 | [Practical DevSecOps](https://www.practical-devsecops.com/black-friday-sale-2026/) 💖 | 15% off certs, up to $600 off bundles | — | Nov 30 | Security / AI |  |
 | [TrainSec](https://trainsec.net/cybersecurity-courses-black-friday-2026/) 💖 | 40% off individual courses and plans | `BF2026` | Nov 30 | Security / Dev |  |
+| [VantagePoint](https://vantagepoint.enciphers.com/) | 70% of hacking labs and certifications | — | Nov 30 | Red |  |
 | [White Knight Labs](https://whiteknightlabs.com/) 💖 | Details conimg soon | — | Nov 27 – Nov 30 | Red |  |
 | [Practical Networking](https://classes.pracnet.net/courses/practical-tls?coupon=BF2026TLS) | Practical TLS: 83% off -- only $50, originally $297 | `BF2026TLS` | Dec 6 | Networking / Security | SSL/TLS deep dive including TLS 1.3, PKI, and 40+ OpenSSL/Wireshark labs · via [@erh-git](https://github.com/erh-git) |
 | [OffSec](https://portal.offsec.com/checkout/?view=learn-one) 💖 | $550 off Learn One Courses | — | Jan 4, 2027 | Red/Blue |  |
