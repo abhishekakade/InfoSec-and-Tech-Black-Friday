@@ -13,7 +13,7 @@ Even if something makes the list, do your due diligence so you aren't getting sc
 
 **Legend:** 💖 training I've taken and liked · ✨ gear or services I've used · ~~struck through~~ means the deal has ended
 
-_Last updated: Nov 10, 2026 17:55 PST_
+_Last updated: Nov 11, 2026 02:25 PST_
 
 ## Table of contents
 
@@ -72,6 +72,8 @@ _Last updated: Nov 10, 2026 17:55 PST_
 |---|---|---|---|
 | [Creality](https://store.creality.com/pages/sale) | Discount varies daily, see site | — | Nov 29 |
 | [RobotShop](https://www.robotshop.com/collections/on-sale) ✨ | Discount varies daily, see site | — | Nov 29 |
+| [Arduino](https://store-usa.arduino.cc/collections/black-friday) ✨ | Discount varies daily, see site | — | Nov 30 |
+| [SparkFun](https://www.sparkfun.com/november_deals) ✨ | Weekly deals (GNSS Nov 9–15, dev boards Nov 16–22), then 15% off SparkFun Originals Nov 23–30, max $150 off | `BFCM2026` | Nov 30 |
 
 ## Books
 
