@@ -59,7 +59,7 @@ sections:
         ends: 2026-11-30
         focus: Red/Blue
         taken: false
-      - vendor: Blue Raven
+      - vendor: Blu Raven
         url: https://academy.bluraven.io/courses
         deal: Up to 40% off Courses
         code: 
@@ -73,11 +73,31 @@ sections:
         ends: 
         focus: Red/Blue/AI
         taken: true
+      - vendor: OffSec
+        url: https://portal.offsec.com/checkout/?view=learn-one
+        deal: $550 off Learn One Courses
+        code: 
+        ends: 2027-01-04
+        focus: Red/Blue
+        taken: true
+      - vendor: MalDev Academy
+        url: https://maldevacademy.com/
+        deal: 25% off courses
+        code: "BLKFRIDAY25"
+        ends: 
+        focus: Red/Blue
+        taken: true
 
   - id: labs
     title: Practical Labs
     emoji: 🧪
-    deals: []
+    deals: 
+      - vendor: Iximiuz Labs
+        url: https://labs.iximiuz.com/
+        deal: Discounted Lifetime and Annual Subscriptions
+        ends: 2026-11-30
+        focus: General
+        taken: true
 
   - id: hardware
     title: Hardware
@@ -100,6 +120,16 @@ sections:
         ends: 2026-11-30
         notes: Great compact homelab boxes
         used: true
+      - vendor: Hak5
+        url: https://hak5.org/pages/hacked-november
+        deal: Discount varies, see site
+        ends: 2026-11-30
+        used: true
+      - vendor: UniFi
+        url: https://store.ui.com/us/en/tags/black-friday
+        deal: Discount varies, see site
+        ends: 2026-11-30
+        used: true    
         
   - id: maker
     title: 3D Printing & Maker
@@ -118,7 +148,13 @@ sections:
   - id: books
     title: Books
     emoji: 📕
-    deals: []
+    deals: 
+      - vendor: The CloudSec Engineer
+        url: https://engineer.cloudsecbooks.com/
+        deal: 20% off
+        code: CYBERNOVEMBER26
+        ends: 2026-11-30
+    
 
   - id: wearables
     title: Wearables
