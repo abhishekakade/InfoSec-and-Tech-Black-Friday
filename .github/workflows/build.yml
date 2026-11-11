@@ -38,7 +38,11 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
-      - run: python scripts/generate.py --validate
+      - name: Fetch main's data for comparison
+        run: |
+          git fetch origin main --depth=1
+          git show origin/main:data/2026.yaml > /tmp/base-2026.yaml || true
+      - run: python scripts/generate.py --validate --base /tmp/base-2026.yaml
 
   # Pushes to main, the daily schedule, and manual runs rebuild and commit the markdown.
   build:
@@ -56,7 +60,7 @@ jobs:
       - name: Commit regenerated files
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "41898273+github-actions[bot]@users.noreply.github.com"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md archive/
           if git diff --cached --quiet; then
             echo "Nothing to commit."
