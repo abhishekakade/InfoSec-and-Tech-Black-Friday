@@ -13,7 +13,7 @@ Even if something makes the list, do your due diligence so you aren't getting sc
 
 **Legend:** 💖 training I've taken and liked · ✨ gear or services I've used · ~~struck through~~ means the deal has ended
 
-_Last updated: Nov 10, 2026 17:43 PST_
+_Last updated: Nov 10, 2026 17:45 PST_
 
 ## Table of contents
 
@@ -31,7 +31,9 @@ _Last updated: Nov 10, 2026 17:43 PST_
 
 ## Tools
 
-_Nothing yet. Know of a deal? See [Contribute](#contribute)._
+| Vendor | Deal | Code | Dates | Focus | Notes |
+|---|---|---|---|---|---|
+| [Scanify](https://scanify.to/pricing?code=BFPRO) | 50% off Pro for 3 months ($10/mo instead of $20) | `BFPRO` | Dec 9 | Blue | Link, file, QR code and IP checker with 95+ antivirus engines, domain age, redirects and a sandbox screenshot. Renews at $20/mo, cancel anytime. · via [@techkar1m](https://github.com/techkar1m) |
 
 ## Courses & Training
 
