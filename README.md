@@ -13,7 +13,7 @@ Even if something makes the list, do your due diligence so you aren't getting sc
 
 **Legend:** 💖 training I've taken and liked · ✨ gear or services I've used · ~~struck through~~ means the deal has ended
 
-_Last updated: Nov 11, 2026 02:57 PST_
+_Last updated: Nov 11, 2026 03:47 PST_
 
 ## Table of contents
 
@@ -103,7 +103,8 @@ Know a deal that belongs here? Add it to [`data/2026.yaml`](data/2026.yaml) and 
 
 ## Credits
 
-_Your name could be here. See [Contribute](#contribute)._
+- [@techkar1m](https://github.com/techkar1m)
+- [@erh-git](https://github.com/erh-git)
 
 ## Past years
 
