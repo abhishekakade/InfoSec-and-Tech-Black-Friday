@@ -5,6 +5,8 @@
 
 **Legend:** 💖 training I've taken and liked · ✨ gear or services I've used · ~~struck through~~ means the deal has ended
 
+**{{active_count}} active deals** of {{deal_count}} listed
+
 _Last updated: {{updated}}_
 
 ## Table of contents
