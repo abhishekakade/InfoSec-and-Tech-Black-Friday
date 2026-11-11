@@ -103,6 +103,14 @@ sections:
         ends: 2026-11-30
         focus: Red/Blue
         taken: true
+      - vendor: White Knight Labs
+        url: https://whiteknightlabs.com/
+        deal: Details conimg soon
+        code: 
+        starts: 2026-11-27
+        ends: 2026-11-30
+        focus: Red
+        taken: true
 
   - id: labs
     title: Practical Labs
