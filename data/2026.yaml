@@ -122,7 +122,6 @@ sections:
         ends: 2026-12-07
         focus: Security / Linux / DevOps / Cloud
         notes: Browser-based hands-on labs. Available to new and existing users; code is active now.
-    deals: 
       - vendor: Iximiuz Labs
         url: https://labs.iximiuz.com/
         deal: Discounted Lifetime and Annual Subscriptions
