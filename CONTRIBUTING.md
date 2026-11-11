@@ -2,6 +2,8 @@
 
 Thanks for helping out! The README is generated from `data/2026.yaml`, so adding a deal means adding a few lines there. Please don't edit `README.md` directly, because your changes would be overwritten.
 
+No URL shorteners, affiliate links, or marketplaces. 
+
 Inclusion is at the maintainer’s discretion. VPNs, lifetime deals, and anything scammy won’t be merged.
 
 ## Adding a deal
@@ -37,9 +39,10 @@ Order doesn't matter. Tables are sorted by end date automatically.
 | `starts` | no | Start date if it hasn't started yet, `YYYY-MM-DD` |
 | `ends` | no | End date, `YYYY-MM-DD`. Please include it when the vendor lists one |
 | `ends_note` | no | Extra timing detail, e.g. `midnight PST` |
+| `evergreen` | no | Added for cases like Antisyphon Training |
 | `focus` | no | `Red`, `Blue`, `Red / Blue`, `Dev`, `Cloud`, `Networking`, `General`, etc. |
 | `notes` | no | Anything else worth knowing. Markdown links are fine |
-| `via` | no | Your GitHub username, e.g. `"@octocat"`. Shows as *via @octocat* next to the deal so you get credit |
+| `via` | no | Your GitHub username, e.g. `"@octocat"`. Shows as *via @octocat* next to the deal so you get credit and adds you to the credits list |
 
 `taken` (💖) and `used` (✨) are the maintainer's personal picks, so please leave them off.
 
