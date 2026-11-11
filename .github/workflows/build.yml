@@ -44,7 +44,7 @@ jobs:
           git show origin/main:data/2026.yaml > /tmp/base-2026.yaml || true
       - run: python scripts/generate.py --validate --base /tmp/base-2026.yaml --pr-author "$PR_AUTHOR"
         env:
-          PR_AUTHOR: ${{ github.event.pull_request.head.repo.full_name != github.repository && github.event.pull_request.user.login || '' }
+          PR_AUTHOR: ${{ github.event.pull_request.head.repo.full_name != github.repository && github.event.pull_request.user.login || '' }}
 
   # Pushes to main, the daily schedule, and manual runs rebuild and commit the markdown.
   build:
