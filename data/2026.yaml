@@ -235,3 +235,4 @@ sections:
         ends: 2026-12-01
         focus: Cloud
         notes: Managed hosting for WordPress secured by Cloudflare, with Vulnerability Protection by Patchstack, SOC 2 and ISO 27001 compliance
+        via: "@vanani11"
