@@ -91,13 +91,25 @@ DataLoader.yaml_implicit_resolvers = {
 
 class Problems:
     def __init__(self) -> None:
-        self.items: list[tuple[str, str, str]] = []  # (file, where, message)
+        self.items: list[tuple[str, str, str]] = []     # (file, where, message): fail the run
+        self.warnings: list[tuple[str, str, str]] = []  # shown, but don't fail the run
 
     def add(self, file: str, where: str, message: str) -> None:
         self.items.append((file, where, message))
 
+    def warn(self, file: str, where: str, message: str) -> None:
+        self.warnings.append((file, where, message))
+
     def __bool__(self) -> bool:
         return bool(self.items)
+
+    def report_warnings(self) -> None:
+        in_actions = os.environ.get("GITHUB_ACTIONS") == "true"
+        for file, where, message in self.warnings:
+            if in_actions:  # shows up as an annotation on the PR
+                print(f"::warning file={file},title=Heads up::{where}: {message}")
+            else:
+                print(f"{file}: {where}: warning: {message}", file=sys.stderr)
 
     def report(self) -> None:
         in_actions = os.environ.get("GITHUB_ACTIONS") == "true"
@@ -168,7 +180,8 @@ def check_url(url: str, file: str, where: str, problems: Problems) -> bool:
 
 
 def validate_deal(deal, file: str, where: str, problems: Problems, year: int,
-                  today: dt.date, base_urls: set[str] | None, require_ends: bool):
+                  today: dt.date, base_urls: set[str] | None, require_ends: bool,
+                  pr_author: str = ""):
     if not isinstance(deal, dict):
         problems.add(file, where, "each deal must be a mapping (vendor:, url:, deal:, ...)")
         return None
@@ -244,6 +257,13 @@ def validate_deal(deal, file: str, where: str, problems: Problems, year: int,
 
     if len(problems.items) > count_before:
         return None
+
+    # Nudge outside contributors who forgot 'via'. Optional, so a warning, not an error.
+    if (pr_author and base_urls is not None and not deal.get("via")
+            and normalize_url(deal["url"]) not in base_urls):
+        problems.warn(file, where, f"no 'via', so you won't be listed in Credits. If you'd like "
+                                   f"credit, add: via: \"@{pr_author}\"")
+
     return {
         "vendor": deal["vendor"].strip(),
         "url": deal["url"].strip(),
@@ -262,7 +282,8 @@ def validate_deal(deal, file: str, where: str, problems: Problems, year: int,
 
 
 def validate_file(path: Path, data, problems: Problems, today: dt.date,
-                  base_urls: set[str] | None = None, current: bool = True):
+                  base_urls: set[str] | None = None, current: bool = True,
+                  pr_author: str = ""):
     file = str(path.relative_to(ROOT))
     if not isinstance(data, dict):
         problems.add(file, "top level", "must be a mapping with 'meta' and 'sections'")
@@ -318,7 +339,7 @@ def validate_file(path: Path, data, problems: Problems, today: dt.date,
         for n, d in enumerate(deals, 1):
             deal_where = f"{where}, deal #{n}"
             result = validate_deal(d, file, deal_where, problems, year, today, base_urls,
-                                   require_ends=current)
+                                   require_ends=current, pr_author=pr_author)
             if result:
                 key = normalize_url(result["url"])
                 if key in seen_urls:
@@ -458,6 +479,29 @@ def render_section(section, year: int, today: dt.date, archive: bool) -> str:
     return "\n".join(lines)
 
 
+def credit_lines(doc) -> list[str]:
+    """Manual meta.credits first, then everyone credited via a deal's 'via' field.
+
+    Handles are deduplicated case-insensitively, and a manual entry like "@octocat"
+    stops the same person from being listed twice.
+    """
+    lines, seen = [], set()
+    for entry in doc["credits"]:
+        if entry.startswith("@") and GITHUB_HANDLE.match(entry[1:]):
+            handle = entry[1:]
+            seen.add(handle.lower())
+            lines.append(f"[@{handle}](https://github.com/{handle})")
+        else:
+            lines.append(entry)  # free text, e.g. "Jane Doe for the logo"
+    for section in doc["sections"]:
+        for deal in section["deals"]:
+            handle = deal["via"]
+            if handle and handle.lower() not in seen:
+                seen.add(handle.lower())
+                lines.append(f"[@{handle}](https://github.com/{handle})")
+    return lines
+
+
 def render(doc, template: str, today: dt.date, updated: str, archive: bool,
            past_years: list[int]) -> str:
     year = doc["year"]
@@ -466,7 +510,7 @@ def render(doc, template: str, today: dt.date, updated: str, archive: bool,
         f"- {s['emoji'] + ' ' if s['emoji'] else ''}[{s['title']}](#{slug(s['title'])})"
         for s in sections
     )
-    credits = "\n".join(f"- {c}" for c in doc["credits"]) or \
+    credits = "\n".join(f"- {c}" for c in credit_lines(doc)) or \
         "_Your name could be here. See [Contribute](#contribute)._"
     archives = "\n".join(f"- [{y}](archive/{y}.md)" for y in past_years) or "_None yet._"
     values = {
@@ -479,6 +523,10 @@ def render(doc, template: str, today: dt.date, updated: str, archive: bool,
         "archives": archives,
         "updated": updated,
         "deal_count": str(sum(len(s["deals"]) for s in doc["sections"])),
+        # Deals not yet ended (evergreen ones count). In archives nothing is "active",
+        # so this equals the total there.
+        "active_count": str(sum(1 for s in doc["sections"] for d in s["deals"]
+                                if not is_expired(d, today, archive))),
     }
 
     def substitute(match):
@@ -514,7 +562,13 @@ def main(argv=None) -> int:
     parser.add_argument("--base", action="append", default=[], metavar="FILE",
                         help="main-branch copy of a data file; deals not in it are treated as new "
                              "and rejected if they already ended (repeatable)")
+    parser.add_argument("--pr-author", default="", metavar="LOGIN",
+                        help="GitHub login of the PR author; with --base, warns when their new "
+                             "deals have no 'via' (leave empty for maintainer PRs)")
     args = parser.parse_args(argv)
+    pr_author = args.pr_author.strip().lstrip("@")
+    if pr_author and not GITHUB_HANDLE.match(pr_author):
+        pr_author = ""
 
     now = dt.datetime.now(TIMEZONE)
     today = dt.date.fromisoformat(args.today) if args.today else now.date()
@@ -539,13 +593,18 @@ def main(argv=None) -> int:
         except yaml.YAMLError as err:
             problems.add(str(path.relative_to(ROOT)), "YAML syntax", str(err).replace("\n", " "))
             continue
-        # With --base given, a year with no base file (e.g. a brand-new year) has every deal new.
-        base_urls = base_by_year.get(int(path.stem), set()) if args.base else None
+        # New-deal checks only apply to the live list; archives are history, not submissions.
+        # With --base given, a current year that has no base file (e.g. the first PR of a new
+        # year) has every deal treated as new.
+        is_current = int(path.stem) == newest
+        base_urls = base_by_year.get(newest, set()) if (args.base and is_current) else None
         # Only the live list needs end dates; archives stay as they were written.
-        doc = validate_file(path, data, problems, today, base_urls, current=int(path.stem) == newest)
+        doc = validate_file(path, data, problems, today, base_urls,
+                            current=is_current, pr_author=pr_author)
         if doc:
             docs[doc["year"]] = doc
 
+    problems.report_warnings()
     if problems:
         problems.report()
         return 1
