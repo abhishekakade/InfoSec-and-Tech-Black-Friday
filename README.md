@@ -13,9 +13,9 @@ Even if something makes the list, do your due diligence so you aren't getting sc
 
 **Legend:** 💖 training I've taken and liked · ✨ gear or services I've used · ~~struck through~~ means the deal has ended
 
-**25 active deals** of 25 listed
+**26 active deals** of 26 listed
 
-_Last updated: Nov 11, 2026 04:17 PST_
+_Last updated: Nov 11, 2026 15:05 PST_
 
 ## Table of contents
 
@@ -96,9 +96,10 @@ _Nothing yet. Know of a deal? See [Contribute](#contribute)._
 
 ## Services
 
-| Vendor | Deal | Code | Dates |
-|---|---|---|---|
-| [Proton Mail](https://proton.me/mail/black-friday) ✨ | 50% off annual subscription | — | Nov 30 |
+| Vendor | Deal | Code | Dates | Focus | Notes |
+|---|---|---|---|---|---|
+| [Proton Mail](https://proton.me/mail/black-friday) ✨ | 50% off annual subscription | — | Nov 30 |  |  |
+| [Kinsta](https://kinsta.com/black-friday/) | 3 months free on annual plans or 50% off the first 3 months on monthly plans (new customers) | — | Dec 1 | Cloud | Managed hosting for WordPress secured by Cloudflare, with Vulnerability Protection by Patchstack, SOC 2 and ISO 27001 compliance · via [@vanani11](https://github.com/vanani11) |
 
 ## Contribute
 
@@ -108,6 +109,7 @@ Know a deal that belongs here? Add it to [`data/2026.yaml`](data/2026.yaml) and 
 
 - [@techkar1m](https://github.com/techkar1m)
 - [@erh-git](https://github.com/erh-git)
+- [@vanani11](https://github.com/vanani11)
 
 ## Past years
 
