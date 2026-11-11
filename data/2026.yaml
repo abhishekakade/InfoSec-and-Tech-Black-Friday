@@ -229,3 +229,10 @@ sections:
         deal: 50% off annual subscription
         ends: 2026-11-30
         used: true
+      - vendor: Kinsta
+        url: https://kinsta.com/black-friday/
+        deal: 3 months free on annual plans or 50% off the first 3 months on monthly plans (new customers)
+        ends: 2026-12-01
+        focus: Cloud
+        notes: Managed hosting for WordPress secured by Cloudflare, with Vulnerability Protection by Patchstack, SOC 2 and ISO 27001 compliance
+        via: "@vanani11"
