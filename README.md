@@ -13,9 +13,9 @@ Even if something makes the list, do your due diligence so you aren't getting sc
 
 **Legend:** 💖 training I've taken and liked · ✨ gear or services I've used · ~~struck through~~ means the deal has ended
 
-**29 active deals** of 29 listed
+**31 active deals** of 31 listed
 
-_Last updated: Nov 11, 2026 15:37 PST_
+_Last updated: Nov 12, 2026 14:58 PST_
 
 ## Table of contents
 
@@ -47,6 +47,8 @@ _Last updated: Nov 11, 2026 15:37 PST_
 | [Just Hacking Training](https://www.justhacking.com/types/courses-and-paths) | 25% off | `BFF25` | Nov 30 | Red/Blue |  |
 | [MalDev Academy](https://maldevacademy.com/) 💖 | 25% off courses | `BLKFRIDAY25` | Nov 30 | Red/Blue |  |
 | [Practical DevSecOps](https://www.practical-devsecops.com/black-friday-sale-2026/) 💖 | 15% off certs, up to $600 off bundles | — | Nov 30 | Security / AI |  |
+| [RedTeamLeaders](https://courses.redteamleaders.com/catalog) | 50% of hacking labs and certifications | `BLACKFRIDAY50` | Nov 30 | Red |  |
+| [RedTeamLeaders](https://courses.redteamleaders.com) | 100% off CLLMSP CLLMSE CCEP CGRCP CNSF CSCRB CTIGA | `NEXTSTEP100` | Nov 30 | Red |  |
 | [TrainSec](https://trainsec.net/cybersecurity-courses-black-friday-2026/) 💖 | 40% off individual courses and plans | `BF2026` | Nov 30 | Security / Dev |  |
 | [VantagePoint](https://vantagepoint.enciphers.com/) | 70% of hacking labs and certifications | — | Nov 30 | Red |  |
 | [White Knight Labs](https://whiteknightlabs.com/) 💖 | Details conimg soon | — | Nov 27 – Nov 30 | Red |  |
