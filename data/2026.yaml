@@ -111,10 +111,10 @@ sections:
         taken: true
       - vendor: White Knight Labs
         url: https://whiteknightlabs.com/
-        deal: Details conimg soon
-        code: 
+        deal: 50% off Certification Courses and 6/12 month Academy Passes
+        code: "WKLBLACKFRIDAY26"
         starts: 2026-11-27
-        ends: 2026-11-30
+        ends: 2026-12-18
         focus: Red
         taken: true
       - vendor: Hack Tricks Training
@@ -134,14 +134,22 @@ sections:
         deal: 50% of hacking labs and certifications
         code: "BLACKFRIDAY50"
         ends: 2026-11-30
-        focus: Red  
+        focus: Red
+        notes: Pricing in Brazilian Real, verified discounts. DYOR. 
       - vendor: RedTeamLeaders
         url: https://courses.redteamleaders.com
         deal: 100% off CLLMSP CLLMSE CCEP CGRCP CNSF CSCRB CTIGA
         code: "NEXTSTEP100"
         ends: 2026-11-30
-        focus: Red  
-        
+        focus: Red
+        notes: Pricing in Brazilian Real, verified discounts. DYOR.
+      - vendor: pwn.guide
+        url: https://pwn.guide
+        deal: 20% off plans
+        code: "BLKFRI20"
+        ends: 2026-12-05
+        focus: Red
+               
   - id: labs
     title: Practical Labs
     emoji: 🧪
