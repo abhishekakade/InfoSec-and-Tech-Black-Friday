@@ -13,9 +13,9 @@ Even if something makes the list, do your due diligence so you aren't getting sc
 
 **Legend:** 💖 training I've taken and liked · ✨ gear or services I've used · ~~struck through~~ means the deal has ended
 
-**31 active deals** of 31 listed
+**32 active deals** of 32 listed
 
-_Last updated: Nov 12, 2026 14:58 PST_
+_Last updated: Nov 12, 2026 15:59 PST_
 
 ## Table of contents
 
@@ -47,12 +47,13 @@ _Last updated: Nov 12, 2026 14:58 PST_
 | [Just Hacking Training](https://www.justhacking.com/types/courses-and-paths) | 25% off | `BFF25` | Nov 30 | Red/Blue |  |
 | [MalDev Academy](https://maldevacademy.com/) 💖 | 25% off courses | `BLKFRIDAY25` | Nov 30 | Red/Blue |  |
 | [Practical DevSecOps](https://www.practical-devsecops.com/black-friday-sale-2026/) 💖 | 15% off certs, up to $600 off bundles | — | Nov 30 | Security / AI |  |
-| [RedTeamLeaders](https://courses.redteamleaders.com/catalog) | 50% of hacking labs and certifications | `BLACKFRIDAY50` | Nov 30 | Red |  |
-| [RedTeamLeaders](https://courses.redteamleaders.com) | 100% off CLLMSP CLLMSE CCEP CGRCP CNSF CSCRB CTIGA | `NEXTSTEP100` | Nov 30 | Red |  |
+| [RedTeamLeaders](https://courses.redteamleaders.com/catalog) | 50% of hacking labs and certifications | `BLACKFRIDAY50` | Nov 30 | Red | Pricing in Brazilian Real, verified discounts. DYOR. |
+| [RedTeamLeaders](https://courses.redteamleaders.com) | 100% off CLLMSP CLLMSE CCEP CGRCP CNSF CSCRB CTIGA | `NEXTSTEP100` | Nov 30 | Red | Pricing in Brazilian Real, verified discounts. DYOR. |
 | [TrainSec](https://trainsec.net/cybersecurity-courses-black-friday-2026/) 💖 | 40% off individual courses and plans | `BF2026` | Nov 30 | Security / Dev |  |
 | [VantagePoint](https://vantagepoint.enciphers.com/) | 70% of hacking labs and certifications | — | Nov 30 | Red |  |
-| [White Knight Labs](https://whiteknightlabs.com/) 💖 | Details conimg soon | — | Nov 27 – Nov 30 | Red |  |
+| [pwn.guide](https://pwn.guide) | 20% off plans | `BLKFRI20` | Dec 5 | Red |  |
 | [Practical Networking](https://classes.pracnet.net/courses/practical-tls?coupon=BF2026TLS) | Practical TLS: 83% off -- only $50, originally $297 | `BF2026TLS` | Dec 6 | Networking / Security | SSL/TLS deep dive including TLS 1.3, PKI, and 40+ OpenSSL/Wireshark labs · via [@erh-git](https://github.com/erh-git) |
+| [White Knight Labs](https://whiteknightlabs.com/) 💖 | 50% off Certification Courses and 6/12 month Academy Passes | `WKLBLACKFRIDAY26` | Nov 27 – Dec 18 | Red |  |
 | [OffSec](https://portal.offsec.com/checkout/?view=learn-one) 💖 | $550 off Learn One Courses | — | Jan 4, 2027 | Red/Blue |  |
 | [Antisyphon Training](https://www.antisyphontraining.com/events/category/pay-forward-what-you-can/list/) 💖 | Not a black Friday Sale, but pay what you can on select courses year round | — | Ongoing | Red/Blue/AI |  |
 
