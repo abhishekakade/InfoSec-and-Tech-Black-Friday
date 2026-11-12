@@ -129,7 +129,19 @@ sections:
         code: 
         ends: 2026-11-30
         focus: Red  
-
+      - vendor: RedTeamLeaders
+        url: https://courses.redteamleaders.com/catalog
+        deal: 50% of hacking labs and certifications
+        code: "BLACKFRIDAY50"
+        ends: 2026-11-30
+        focus: Red  
+      - vendor: RedTeamLeaders
+        url: https://courses.redteamleaders.com
+        deal: 100% off CLLMSP CLLMSE CCEP CGRCP CNSF CSCRB CTIGA
+        code: "NEXTSTEP100"
+        ends: 2026-11-30
+        focus: Red  
+        
   - id: labs
     title: Practical Labs
     emoji: 🧪
