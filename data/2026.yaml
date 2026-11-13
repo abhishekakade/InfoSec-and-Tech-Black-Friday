@@ -156,6 +156,13 @@ sections:
         ends: 2026-11-30
         focus: Red / Blue / AI / Cloud
         notes: Bundles include Red Team, Blue Team, AI Security, Cloud ($29–$149). More Lab offers on [CWL Infinity](https://infinity.cyberwarfare.live/).
+      - vendor: Blue Cape Security
+        url: https://bluecapesecurity.com/training-tracks/
+        deal: $700 off HERO bundle
+        code: 
+        ends: 2026-11-30
+        focus: Blue
+        taken: true  
                
   - id: labs
     title: Practical Labs
