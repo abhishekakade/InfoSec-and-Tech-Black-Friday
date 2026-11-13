@@ -149,6 +149,13 @@ sections:
         code: "BLKFRI20"
         ends: 2026-12-05
         focus: Red
+      - vendor: CyberWarFare Labs
+        url: https://cyberwarfare.live/
+        deal: Certification courses $9+, bundles $29+ (up to 90% off)
+        code:
+        ends: 2026-11-30
+        focus: Red / Blue / AI / Cloud
+        notes: Bundles include Red Team, Blue Team, AI Security, Cloud ($29–$149). More Lab offers on [CWL Infinity](https://infinity.cyberwarfare.live/).
                
   - id: labs
     title: Practical Labs
