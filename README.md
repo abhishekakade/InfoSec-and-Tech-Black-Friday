@@ -13,9 +13,9 @@ Even if something makes the list, do your due diligence so you aren't getting sc
 
 **Legend:** 💖 training I've taken and liked · ✨ gear or services I've used · ~~struck through~~ means the deal has ended
 
-**33 active deals** of 33 listed
+**34 active deals** of 34 listed
 
-_Last updated: Nov 13, 2026 01:53 PST_
+_Last updated: Nov 13, 2026 03:19 PST_
 
 ## Table of contents
 
@@ -73,6 +73,7 @@ _Last updated: Nov 13, 2026 01:53 PST_
 | [Hak5](https://hak5.org/pages/hacked-november) ✨ | Discount varies, see site | — | Nov 30 |  |
 | [Minis Forum](https://store.minisforum.com/pages/minisforum-black-friday) ✨ | Discount varies daily, see site | — | Nov 11 – Nov 30 | Great compact homelab boxes |
 | [UniFi](https://store.ui.com/us/en/tags/black-friday) ✨ | Discount varies, see site | — | Nov 30 |  |
+| [Yubico](https://www.yubico.com/us/store/2026/black-friday-sale/) ✨ | Will update when available | — | Nov 19 – Nov 30 |  |
 | [Back Market](https://www.backmarket.com/en-us/e/black-friday) | Discount varies daily, see site | — | Dec 1 | refurb phones and hardware for labs |
 | [Geekom](https://www.geekompc.com/black-friday/) | Discount varies daily, see site | — | Dec 1 | Great compact homelab boxes |
 
