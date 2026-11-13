@@ -13,9 +13,9 @@ Even if something makes the list, do your due diligence so you aren't getting sc
 
 **Legend:** 💖 training I've taken and liked · ✨ gear or services I've used · ~~struck through~~ means the deal has ended
 
-**34 active deals** of 34 listed
+**35 active deals** of 35 listed
 
-_Last updated: Nov 13, 2026 03:19 PST_
+_Last updated: Nov 13, 2026 04:15 PST_
 
 ## Table of contents
 
@@ -43,6 +43,7 @@ _Last updated: Nov 13, 2026 03:19 PST_
 | Vendor | Deal | Code | Dates | Focus | Notes |
 |---|---|---|---|---|---|
 | [Blu Raven](https://academy.bluraven.io/courses) | Up to 40% off Courses | — | Nov 30 | Blue |  |
+| [Blue Cape Security](https://bluecapesecurity.com/training-tracks/) 💖 | $700 off HERO bundle | — | Nov 30 | Blue |  |
 | [CyberWarFare Labs](https://cyberwarfare.live/) | Certification courses $9+, bundles $29+ (up to 90% off) | — | Nov 30 | Red / Blue / AI / Cloud | Bundles include Red Team, Blue Team, AI Security, Cloud ($29–$149). More Lab offers on [CWL Infinity](https://infinity.cyberwarfare.live/). |
 | [Hack Tricks Training](https://hacktricks-training.com/) | 20% of courses, 15% off labs & exams, 10% off bundles | — | Nov 30 | Red |  |
 | [Just Hacking Training](https://www.justhacking.com/types/courses-and-paths) | 25% off | `BFF25` | Nov 30 | Red/Blue |  |
