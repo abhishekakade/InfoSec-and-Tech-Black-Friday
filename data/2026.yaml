@@ -212,7 +212,13 @@ sections:
         url: https://store.ui.com/us/en/tags/black-friday
         deal: Discount varies, see site
         ends: 2026-11-30
-        used: true    
+        used: true
+      - vendor: Yubico
+        url: https://www.yubico.com/us/store/2026/black-friday-sale/
+        deal: Will update when available
+        starts: 2026-11-19
+        ends: 2026-11-30
+        used: true  
         
   - id: maker
     title: 3D Printing & Maker
