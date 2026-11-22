@@ -182,6 +182,15 @@ sections:
         focus: Red
         notes: Standalone vulnerability scanner written in Go for Linux, macOS and Windows, no Burp Suite required. REST API and MCP integration for AI agents.
         via: "@wagiro"
+      - vendor: EnigmaIS
+        url: https://myownca.com/
+        deal: 80% off Starter Pack
+        code: "BLACK-FRIDAY-2026-STARTER-80"
+        starts: 2026-11-22
+        ends: 2026-12-02
+        focus: Blue / Dev / Networking
+        notes: "Self-hosted PKI and private Certificate Authority management platform. ACME automation, TLS/mTLS certificates, HSM integration, certificate lifecycle management and offline root CA support. [GitHub](https://github.com/EnigmaIS/myOwnCA). Apply the code at checkout."
+        via: "@Walkerovski"
       - vendor: S4E
         url: https://s4e.io/black-friday
         deal: "60% off a full year of S4E Pro ($1,428 → $571.20, about $47.60/mo)"
