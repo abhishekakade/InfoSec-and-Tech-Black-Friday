@@ -13,9 +13,9 @@ Even if something makes the list, do your due diligence so you aren't getting sc
 
 **Legend:** 💖 training I've taken and liked · ✨ gear or services I've used · ~~struck through~~ means the deal has ended
 
-**100 active deals** of 100 listed
+**101 active deals** of 101 listed
 
-_Last updated: Nov 22, 2026 11:44 PST_
+_Last updated: Nov 22, 2026 11:47 PST_
 
 _Building something with this list? There's a [JSON feed](#machine-readable-feed)._
 
@@ -47,6 +47,7 @@ _Building something with this list? There's a [JSON feed](#machine-readable-feed
 | [Guard by OffSeq](https://guard.report/monitoring) | 50% off the full report and the first month of monitoring | — | Dec 1 | Blue | Website security and NIS2/GDPR compliance scanning with continuous monitoring. Free scan, results in minutes. · via [@thistehneisen](https://github.com/thistehneisen) |
 | [OffSeq Threat Radar](https://radar.offseq.com/pricing) | 50% off the first month or the whole first year of any subscription plan | — | Dec 1 | Blue | Live CVE, exploited-vulnerability and malware intelligence with API, RSS and alerts. Free plan with API access (30 requests/day). · via [@thistehneisen](https://github.com/thistehneisen) |
 | [S4E](https://s4e.io/black-friday) | 60% off a full year of S4E Pro ($1,428 → $571.20, about $47.60/mo) | `BLACKFRIDAY2026` | Dec 1 (23:59 UTC) | Blue | Continuous attack surface protection for your websites, domains and IP addresses. 24/7 change-aware monitoring with 12,000+ continuously updated checks, new CVE matching and instant email alerts, AI fix recommendations, dark web and credential integrations, full scan history and a weekly risk summary. Pro covers 1 continuously protected asset. New annual subscriptions only, discount applies to the first year; the code is applied automatically at checkout. Free plan and free online scanners also available. · via [@Eren-Akdag](https://github.com/Eren-Akdag) |
+| [EnigmaIS](https://myownca.com/) | 80% off Starter Pack | `BLACK-FRIDAY-2026-STARTER-80` | Nov 22 – Dec 2 | Blue / Dev / Networking | Self-hosted PKI and private Certificate Authority management platform. ACME automation, TLS/mTLS certificates, HSM integration, certificate lifecycle management and offline root CA support. [GitHub](https://github.com/EnigmaIS/myOwnCA). Apply the code at checkout. · via [@Walkerovski](https://github.com/Walkerovski) |
 | [OffSeq Breach](https://breach.offseq.com/#pricing) | 50% off the first billing period of any paid plan | `BLACK` | Dec 2 | Blue | Leaked-credential monitoring for your domains across breach datasets, forums and Telegram. Free start. · via [@thistehneisen](https://github.com/thistehneisen) |
 | [OffSeq Pulse](https://pulse.offseq.com/pricing) | 50% off the first year or first month for new customers | — | Dec 2 | Blue | EU-hosted device posture and NIS2/CIS compliance for Windows, macOS and Linux. First 2 devices free. · via [@thistehneisen](https://github.com/thistehneisen) |
 | [Burp Bounty Pro](https://bountysecurity.ai/products/burp-bounty) | 40% off the first year of the yearly plan | `BLACKFRIDAY26` | Dec 3 | Red | Burp Suite extension that turns your methodology into automated vulnerability checks, with a visual profile editor, Smart Scan rules, multi-step scans and an optional AI Scanner. Requires Burp Suite Professional. Includes Burp Bounty Server. · via [@wagiro](https://github.com/wagiro) |
@@ -200,6 +201,7 @@ Code (scripts, workflows) is [MIT](LICENSE). The list content and everything in 
 - [@epgh123](https://github.com/epgh123)
 - [@ludovic767](https://github.com/ludovic767)
 - [@wagiro](https://github.com/wagiro)
+- [@Walkerovski](https://github.com/Walkerovski)
 - [@Eren-Akdag](https://github.com/Eren-Akdag)
 - [@oripka](https://github.com/oripka)
 - [@GHULI3V](https://github.com/GHULI3V)

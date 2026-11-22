@@ -3,7 +3,7 @@
   "year": 2026,
   "source": "https://github.com/ps-lo/InfoSec-and-Tech-Black-Friday",
   "license": "CC-BY-4.0",
-  "generated": "2026-11-22T19:44:48+00:00",
+  "generated": "2026-11-22T19:47:20+00:00",
   "deals": [
     {
       "section": "tools",
@@ -368,6 +368,26 @@
       "focus": "Red",
       "notes": "Standalone vulnerability scanner written in Go for Linux, macOS and Windows, no Burp Suite required. REST API and MCP integration for AI agents.",
       "via": "wagiro",
+      "taken": false,
+      "used": false
+    },
+    {
+      "section": "tools",
+      "section_title": "Tools",
+      "vendor": "EnigmaIS",
+      "url": "https://myownca.com/",
+      "deal": "80% off Starter Pack",
+      "codes": [
+        "BLACK-FRIDAY-2026-STARTER-80"
+      ],
+      "starts": "2026-11-22",
+      "ends": "2026-12-02",
+      "ends_note": null,
+      "evergreen": false,
+      "ended": false,
+      "focus": "Blue / Dev / Networking",
+      "notes": "Self-hosted PKI and private Certificate Authority management platform. ACME automation, TLS/mTLS certificates, HSM integration, certificate lifecycle management and offline root CA support. [GitHub](https://github.com/EnigmaIS/myOwnCA). Apply the code at checkout.",
+      "via": "Walkerovski",
       "taken": false,
       "used": false
     },
