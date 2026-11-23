@@ -3,7 +3,7 @@
   "year": 2026,
   "source": "https://github.com/ps-lo/InfoSec-and-Tech-Black-Friday",
   "license": "CC-BY-4.0",
-  "generated": "2026-11-22T19:47:20+00:00",
+  "generated": "2026-11-23T10:10:30+00:00",
   "deals": [
     {
       "section": "tools",
@@ -408,6 +408,24 @@
       "focus": "Blue",
       "notes": "Continuous attack surface protection for your websites, domains and IP addresses. 24/7 change-aware monitoring with 12,000+ continuously updated checks, new CVE matching and instant email alerts, AI fix recommendations, dark web and credential integrations, full scan history and a weekly risk summary. Pro covers 1 continuously protected asset. New annual subscriptions only, discount applies to the first year; the code is applied automatically at checkout. Free plan and free online scanners also available.",
       "via": "Eren-Akdag",
+      "taken": false,
+      "used": false
+    },
+    {
+      "section": "tools",
+      "section_title": "Tools",
+      "vendor": "OmniForge",
+      "url": "https://zcoldwater.github.io/omniforge-skills/black-friday-2026-developer-security-deal.html",
+      "deal": "83% off 3-in-1 Launch Security, Email DNS & AI Search Fix Suite ($29 to $5 one-time pass; individual VibeShield v7.0 / InboxShield v7.0 / CiteReady v6.0 passes $2)",
+      "codes": [],
+      "starts": null,
+      "ends": "2026-12-01",
+      "ends_note": "23:59 UTC",
+      "evergreen": false,
+      "ended": false,
+      "focus": "Blue / Dev",
+      "notes": "Read-only passive web security, email DNS, and AI search launch audit suite: VibeShield v7.0 (116+ checks across JS secrets, Supabase RLS / CVE-2025-48757, Firebase rules, Next.js CVE-2025-29927, TLS & CSP AST), InboxShield v7.0 (SPF 10-lookup flattener, 28-selector DKIM, DMARC, BIMI, MTA-STS), and CiteReady v6.0 (/llms.txt & Schema.org). All diagnostic web scans, zero-install cli.sh, BrandShield v6.2 (78+ TLDs & USPTO), and 50 MIT Agent Skills are free; paid passes unlock domain-tailored copy-paste remediation code with no subscription. Auto-applied, no coupon code required.",
+      "via": "zColdWater",
       "taken": false,
       "used": false
     },
