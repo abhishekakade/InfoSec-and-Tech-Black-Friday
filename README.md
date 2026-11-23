@@ -15,7 +15,7 @@ Even if something makes the list, do your due diligence so you aren't getting sc
 
 **102 active deals** of 102 listed
 
-_Last updated: Nov 23, 2026 02:10 PST_
+_Last updated: Nov 23, 2026 13:21 PST_
 
 _Building something with this list? There's a [JSON feed](#machine-readable-feed)._
 
@@ -89,7 +89,7 @@ _Building something with this list? There's a [JSON feed](#machine-readable-feed
 | [ISC2](https://www.isc2.org/training/black-friday-cyber-week-sale) | 10% off ISC2 courses, Express Courses and certificates; members get 20% | — | Dec 1 | Blue | Training only, not exam vouchers. Applied in cart, no code. |
 | [TheXero Training Academy](https://training.thexero.co.uk/) | 67% off Wireless Operator course | — | Dec 1 | Red |  |
 | [Wireshark Labs](https://wiresharklabs.org/) | Hands-on Wireshark labs with real packet captures: WCA exam prep $199.99 → $99.99, Ranger (real-world cases) $249.99 → $179.99 | `PACKETFRIDAY` | Dec 1 (until Dec 2, 08:00 UTC) | Networking | via [@oripka](https://github.com/oripka) |
-| [8kSec Academy](https://academy.8ksec.io/) | 15% off all on-demand mobile & AI security courses (CAISR, CMSE, OMSE, CISR, CASR) | `8KSECBLACKFRIDAY` | Dec 4 | Red / AI | via [@sandra44dev](https://github.com/sandra44dev) |
+| [8kSec Academy](https://academy.8ksec.io/) | 15% off all on-demand mobile & AI security courses (CAISR, CMSE, OMSE, CISR, CASR) | `BLACKFRIDAY15` | Dec 4 | Red / AI | via [@sandra44dev](https://github.com/sandra44dev) |
 | [Centri (formerly Security Blue Team)](https://centri.org/black-friday) | Up to 40% off: BTL2 and CSOM 40%, CDEA 20%, BTL1 and CPTA 10%; bundle at £699 | — | Nov 27 – Dec 4 | Blue | Blue team certifications, including BTL1. No code needed. |
 | [pwn.guide](https://pwn.guide) | 20% off plans | `BLKFRI20` | Dec 5 | Red |  |
 | [Practical Networking](https://classes.pracnet.net/courses/practical-tls?coupon=BF2026TLS) | Practical TLS: 83% off -- only $50, originally $297 | `BF2026TLS` | Dec 6 | Networking / Security | SSL/TLS deep dive including TLS 1.3, PKI, and 40+ OpenSSL/Wireshark labs · via [@erh-git](https://github.com/erh-git) |
