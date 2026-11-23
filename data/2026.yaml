@@ -452,7 +452,7 @@ sections:
       - vendor: 8kSec Academy
         url: https://academy.8ksec.io/
         deal: 15% off all on-demand mobile & AI security courses (CAISR, CMSE, OMSE, CISR, CASR)
-        code: "8KSECBLACKFRIDAY"
+        code: "BLACKFRIDAY15"
         ends: 2026-12-04
         focus: Red / AI
         via: "@sandra44dev"
