@@ -208,6 +208,13 @@ sections:
         focus: Blue / Dev
         notes: "Read-only passive web security, email DNS, and AI search launch audit suite: VibeShield v7.0 (116+ checks across JS secrets, Supabase RLS / CVE-2025-48757, Firebase rules, Next.js CVE-2025-29927, TLS & CSP AST), InboxShield v7.0 (SPF 10-lookup flattener, 28-selector DKIM, DMARC, BIMI, MTA-STS), and CiteReady v6.0 (/llms.txt & Schema.org). All diagnostic web scans, zero-install cli.sh, BrandShield v6.2 (78+ TLDs & USPTO), and 50 MIT Agent Skills are free; paid passes unlock domain-tailored copy-paste remediation code with no subscription. Auto-applied, no coupon code required."
         via: "@zColdWater"
+      - vendor: Beagle Security
+        url: https://beaglesecurity.com/black-friday-sale
+        deal: "35% off annual or 20% off monthly plans"
+        code: "BFCMM26"
+        ends: 2026-12-04
+        focus: "Red / AppSec"
+        notes: "AI-driven web app and API pentest SaaS; new or free-plan users only, first year or first 6 months then normal renewal."  
       
   - id: courses
     title: Courses & Training
@@ -464,7 +471,8 @@ sections:
         notes: Malware analysis training with practical labs, walkthroughs, video and written materials. Discount applied at checkout. Courses are lifetime access. Binary Ninja courses provide Binary Ninja license for one year.
       - vendor: GIAC
         url: https://www.giac.org/
-        deal: "30% off select GIAC products"
+        deal: "30% off practice tests, retakes, extensions, Applied Knowledge certs"
+        code: "30Cyber26"
         starts: 2026-11-24
         ends: 2026-12-01
         ends_note: "end date not published, recheck"
@@ -476,12 +484,72 @@ sections:
         ends: 2026-11-30
         ends_note: "end date not published, recheck"
         focus: "Red"
-        notes: "Malware development and red team tradecraft courses."  
-
+        notes: "Malware development and red team tradecraft courses."
+      - vendor: Centri (formerly Security Blue Team)
+        url: https://www.centri.org/black-friday
+        deal: "Up to 40% off BTL2, CSOM, CDEA, BTL1, CPTA; bundle £699"
+        ends: 2026-12-04
+        focus: "Blue"
+        notes: "Starts Nov 27 at 10:00 UTC; GBP prices, bundle not combinable with other discounts."
+      - vendor: Cisco U. Store Learning Deals
+        url: https://www.cisco.com/site/us/en/learn/training-certifications/learning-deals.html
+        deal: "40% off Cisco U. Essentials and CCNA / DCAI bundles; 50% off CCNA 1.1 path"
+        ends: 2026-12-01
+        focus: "Network / Blue"
+        notes: "Extra 40% doorbusters on Cisco Modeling Labs and CCNA Automation/Cybersecurity paths run only Nov 30, 8am–12pm PT."
+      - vendor: Linux Foundation
+        url: https://training.linuxfoundation.org/
+        deal: "Up to 65% off training and certifications"
+        ends: 2026-12-04
+        focus: "Linux / Cloud"
+        notes: "Announced as a save-the-date starting Nov 27; per-product terms not published yet."
+      - vendor: Cloud Security Alliance
+        url: https://cloudsecurityalliance.org/p/cyber-monday-2026
+        deal: "50% off CSA training and exam tokens (CCSK, CCZT, TAISE)"
+        ends: 2026-11-30
+        focus: "Cloud"
+        notes: "24-hour Cyber Monday sale; join the waitlist to get the code, team training and VILT excluded."
+      - vendor: Level Effect
+        url: https://www.leveleffect.com/pricing
+        deal: "About 17% off the first year of Adventurer ($243.60) or Guardian ($663.60)"
+        ends: 2026-12-07
+        focus: "Blue"
+        notes: "Vendor advertises 30% off, but that's against monthly billing; against the normal yearly price it's about 17%. Renews at $295 or $805."
+      - vendor: Mobile Hacking Lab
+        url: https://ads.mobilehackinglab.com/bf/deals
+        deal: "Mobile security course bundles from €249, up to 61% off"
+        code: ["DFA500", "WEBKIT60", "IOS999", "BF26KU", "BF26FCA"]
+        ends: 2026-11-30
+        ends_note: "Ends 23:59 CET"
+        focus: "Red"
+        notes: "Android and iOS exploitation and forensics bundles; the iOS WebKit course is presale.   
+      - vendor: 13Cubed
+        url: https://training.13cubed.com/
+        deal: "$100 off all courses"
+        code: "BLACKFRIDAY2026"
+        ends: 2026-11-30
+        focus: "Blue"
+        notes: "DFIR and memory forensics courses by Richard Davis." 
+      - vendor: Altered Security
+        url: https://www.alteredsecurity.com/
+        deal: "20% off all courses and bootcamps, plus an extra 5% when you buy 2 or more items"
+        starts: 2026-11-23
+        ends: 2026-12-06
+        focus: "Red"
+        notes: "Red team, Active Directory and Azure labs and bootcamps. No code needed."
+        taken: true  
+        
   - id: labs
     title: Practical Labs
     emoji: 🧪
     deals:
+      - vendor: TryHackMe
+        url: https://tryhackme.com/black-friday
+        deal: "40% off annual Premium, annual MAX and certifications"
+        code: "none (auto)"
+        ends: 2026-11-27
+        focus: "Red / Blue"
+        notes: "Auto-applied at checkout for individual accounts; certification bundles and business/education plans excluded, discount covers year one."
       - vendor: LabEx Pro (1 Year)
         url: https://labex.io/checkout?type=2&coupon=2026BF30
         deal: 30% off one-year membership
@@ -516,6 +584,11 @@ sections:
     title: Hardware
     emoji: 🔧
     deals: 
+      - vendor: Covert Instruments
+        url: https://covertinstruments.com/
+        deal: "20–30% off most tools plus free gifts"
+        ends: 2026-12-06
+        notes: "Lockpicking and physical entry tools"
       - vendor: Geekom
         url: https://www.geekompc.com/black-friday/
         deal: Discount varies daily, see site
@@ -588,6 +661,12 @@ sections:
         ends: 2026-12-07
         ends_note: "11:59 PM PST"
         notes: "Storage enclosures and small NAS units for homelab builds. No code. Cart-tier discounts don't apply to NAS or enclosures."
+      - vendor: Beelink
+        url: https://www.bee-link.com/pages/black-friday-cyber-monday
+        deal: "Up to 17% off selected mini PCs and bundles"
+        code: "BF495"
+        ends: 2026-11-30
+        notes: "BF495 is $100 off the GTR9 Pro"  
         
   - id: maker
     title: 3D Printing & Maker
@@ -649,6 +728,12 @@ sections:
         code: "CYBERNOVEMBER26"
         ends: 2026-11-30
         notes: Book on cloud security engineering.
+      - vendor: No Starch Press
+        url: https://nostarch.com/
+        deal: "40% off sitewide"
+        starts: 2026-11-24
+        ends: 2026-11-29
+        notes: "40% off site wide"  
     
 
   - id: wearables
@@ -689,7 +774,7 @@ sections:
         url: https://tryhackme.com/adventofcyber26
         deal: "Free daily beginner-friendly security challenges"
         starts: 2026-12-01
-        ends: 2026-12-24   # typical run, verify
+        ends: 2026-12-24
         focus: Red / Blue
         notes: "New task daily at 4 PM GMT. Free account."  
         
@@ -705,7 +790,7 @@ sections:
         used: true
       - vendor: Proton Drive
         url: https://proton.me/drive/pricing
-        deal: "60% off Drive Plus, first year"
+        deal: "50% off Drive Plus, first year"
         ends: 2026-11-30
         focus: Privacy
         notes: "Encrypted cloud storage."
