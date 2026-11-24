@@ -545,6 +545,14 @@ sections:
         focus: "Red"
         notes: "Red team, Active Directory and Azure labs and bootcamps. No code needed; use your purchase up to 6 months later."
         taken: true  
+      - vendor: ZephrSec
+        url: https://malwareless.training/
+        deal: "13.37% off the Malwareless course"
+        code: "GUISING1337"
+        ends: 2026-11-30
+        focus: "Red"
+        notes: "One-time purchase, no subscription or recurring fees. Red team tradecraft without relying on custom malware."
+        via: "@ZephrFish"
         
   - id: labs
     title: Practical Labs
