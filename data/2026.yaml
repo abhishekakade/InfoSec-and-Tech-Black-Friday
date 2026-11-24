@@ -225,7 +225,14 @@ sections:
   - id: courses
     title: Courses & Training
     emoji: 🎓
-    deals: 
+    deals:
+      - vendor: "ISA"
+        url: "https://programs.isa.org/blackfriday26"
+        deal: "25% off eligible training and standards"
+        starts: 2026-11-17
+        ends: 2026-11-30
+        focus: "Blue"
+        notes: "ICS/OT security training and standards. Only the courses and standards listed on the sale page qualify."
       - vendor: Wireshark Labs
         url: https://wiresharklabs.org/
         deal: "Hands-on Wireshark labs with real packet captures: WCA exam prep $199.99 → $99.99, Ranger (real-world cases) $249.99 → $179.99"
