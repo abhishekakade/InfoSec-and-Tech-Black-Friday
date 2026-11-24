@@ -3,7 +3,7 @@
   "year": 2026,
   "source": "https://github.com/ps-lo/InfoSec-and-Tech-Black-Friday",
   "license": "CC-BY-4.0",
-  "generated": "2026-11-24T12:15:34+00:00",
+  "generated": "2026-11-24T20:07:54+00:00",
   "deals": [
     {
       "section": "tools",
@@ -1303,6 +1303,26 @@
       "notes": "Red team, Active Directory and Azure labs and bootcamps. No code needed; use your purchase up to 6 months later.",
       "via": null,
       "taken": true,
+      "used": false
+    },
+    {
+      "section": "courses",
+      "section_title": "Courses & Training",
+      "vendor": "ZephrSec",
+      "url": "https://malwareless.training/",
+      "deal": "13.37% off the Malwareless course",
+      "codes": [
+        "GUISING1337"
+      ],
+      "starts": null,
+      "ends": "2026-11-30",
+      "ends_note": null,
+      "evergreen": false,
+      "ended": false,
+      "focus": "Red",
+      "notes": "One-time purchase, no subscription or recurring fees. Red team tradecraft without relying on custom malware.",
+      "via": "ZephrFish",
+      "taken": false,
       "used": false
     },
     {

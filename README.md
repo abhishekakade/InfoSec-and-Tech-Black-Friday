@@ -13,9 +13,9 @@ Even if something makes the list, do your due diligence so you aren't getting sc
 
 **Legend:** 💖 training I've taken and liked · ✨ gear or services I've used · ~~struck through~~ means the deal has ended
 
-**115 active deals** of 116 listed
+**116 active deals** of 117 listed
 
-_Last updated: Nov 24, 2026 04:15 PST_
+_Last updated: Nov 24, 2026 12:07 PST_
 
 _Building something with this list? There's a [JSON feed](#machine-readable-feed)._
 
@@ -87,6 +87,7 @@ _Building something with this list? There's a [JSON feed](#machine-readable-feed
 | [The SecOps Group (PentestingExams)](https://pentestingexams.com/) | 90% off all pentesting certification exams | `BF-90` | Nov 30 | Red | Exam vouchers only, not training. Discount is big enough to DYOR on the exam terms. |
 | [TrainSec](https://trainsec.net/cybersecurity-courses-black-friday-2026/) 💖 | 40% off individual courses and plans | `BF2026` | Nov 30 | Security / Dev | Windows internals, kernel and low-level security courses. |
 | [VantagePoint](https://vantagepoint.enciphers.com/) | 70% off hacking labs and certifications | — | Nov 30 | Red |  |
+| [ZephrSec](https://malwareless.training/) | 13.37% off the Malwareless course | `GUISING1337` | Nov 30 | Red | One-time purchase, no subscription or recurring fees. Red team tradecraft without relying on custom malware. · via [@ZephrFish](https://github.com/ZephrFish) |
 | [Zero-Point Security](https://www.zeropointsecurity.co.uk/courses) | 40% off courses, applied at checkout | — | Nov 30 | Red | Red team training, including CRTO. Discount applied at checkout, no code. |
 | [Cisco U. Store Learning Deals](https://www.cisco.com/site/us/en/learn/training-certifications/learning-deals.html) | 40% off Cisco U. Essentials and CCNA / DCAI bundles; 50% off CCNA 1.1 path | — | Dec 1 | Network / Blue | Extra 40% doorbusters on Cisco Modeling Labs and CCNA Automation/Cybersecurity paths run only Nov 30, 8am–12pm PT. |
 | [CyberWarFare Labs](https://cyberwarfare.live/) | Up to 90% off course bundles, individual certifications starting at $5, and Infinity Yearly Access for $49 with 2 free certifications and [More](https://github.com/RedTeamOperations/black-friday-cyber-sale-2026) | `INFINITY49 (Yearly), INFINITY5 (Monthly)` | Dec 1 | Red Team, Blue Team, Cloud Security, AI Security | via [@RedTeamOperations](https://github.com/RedTeamOperations) |
@@ -227,6 +228,7 @@ Code (scripts, workflows) is [MIT](LICENSE). The list content and everything in 
 - [@RedTeamOperations](https://github.com/RedTeamOperations)
 - [@six2dez](https://github.com/six2dez)
 - [@sandra44dev](https://github.com/sandra44dev)
+- [@ZephrFish](https://github.com/ZephrFish)
 - [@vanani11](https://github.com/vanani11)
 - [@ethannschwartz](https://github.com/ethannschwartz)
 
