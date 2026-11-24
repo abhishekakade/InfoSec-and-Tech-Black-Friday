@@ -13,9 +13,9 @@ Even if something makes the list, do your due diligence so you aren't getting sc
 
 **Legend:** 💖 training I've taken and liked · ✨ gear or services I've used · ~~struck through~~ means the deal has ended
 
-**114 active deals** of 115 listed
+**115 active deals** of 116 listed
 
-_Last updated: Nov 24, 2026 02:13 PST_
+_Last updated: Nov 24, 2026 02:52 PST_
 
 _Building something with this list? There's a [JSON feed](#machine-readable-feed)._
 
@@ -71,6 +71,7 @@ _Building something with this list? There's a [JSON feed](#machine-readable-feed
 | [Blue Cape Security](https://bluecapesecurity.com/training-tracks/) 💖 | $700 off HERO bundle | — | Nov 30 | Blue | Incident response training and certification. |
 | [Cloud Security Alliance](https://cloudsecurityalliance.org/p/cyber-monday-2026) | 50% off CSA training and exam tokens (CCSK, CCZT, TAISE) | — | Nov 30 | Cloud | 24-hour Cyber Monday sale; join the waitlist to get the code, team training and VILT excluded. |
 | [HackTricks Training](https://hacktricks-training.com/) | 20% off courses, 15% off labs & exams, 10% off bundles | — | Nov 30 | Red |  |
+| [ISA](https://programs.isa.org/blackfriday26) | 25% off eligible training and standards | — | Nov 17 – Nov 30 | Blue | ICS/OT security training and standards. Only the courses and standards listed on the sale page qualify. |
 | [Just Hacking Training](https://www.justhacking.com/types/courses-and-paths) | 25% off | `BFF25` | Nov 30 | Red/Blue | Hands-on cybersecurity training from practitioners for practitioners. |
 | [MalDev Academy](https://maldevacademy.com/) 💖 | 25% off courses | `BLKFRIDAY25` | Nov 30 | Red/Blue | Malware development and evasion. Useful for red teamers and for defenders who want to understand what they’re detecting. |
 | [Mobile Hacking Lab](https://ads.mobilehackinglab.com/bf/deals) | Mobile security course bundles from €249, up to 61% off | `DFA500`<br>`WEBKIT60`<br>`IOS999`<br>`BF26KU`<br>`BF26FCA` | Nov 30 (23:59 CET) | Red | Android and iOS exploitation and forensics bundles; the iOS WebKit course is presale. |
