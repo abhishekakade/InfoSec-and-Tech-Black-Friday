@@ -215,6 +215,12 @@ sections:
         ends: 2026-12-04
         focus: "Red / AppSec"
         notes: "AI-driven web app and API pentest SaaS; new or free-plan users only, first year or first 6 months then normal renewal."  
+      - vendor: Termalin
+        url: https://termal.in/pricing/
+        deal: "16 months of yearly Pro for the price of 12 ($96, $8 → $6/mo) + 100 GB cloud storage"
+        ends: 2026-12-01
+        focus: Dev / Networking
+        notes: "SSH, SFTP and RDP client for Windows, macOS, Linux and iOS with end-to-end encrypted sync. AI agents (ChatGPT, Claude, coding tools) run commands on your servers without being handed SSH keys, limited by a per-server command allowlist and logged to an audit log. Auto-applied at checkout, no code."
       
   - id: courses
     title: Courses & Training
