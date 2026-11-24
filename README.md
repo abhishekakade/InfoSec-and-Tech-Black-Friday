@@ -13,9 +13,9 @@ Even if something makes the list, do your due diligence so you aren't getting sc
 
 **Legend:** 💖 training I've taken and liked · ✨ gear or services I've used · ~~struck through~~ means the deal has ended
 
-**114 active deals** of 114 listed
+**114 active deals** of 115 listed
 
-_Last updated: Nov 23, 2026 16:52 PST_
+_Last updated: Nov 24, 2026 02:13 PST_
 
 _Building something with this list? There's a [JSON feed](#machine-readable-feed)._
 
@@ -48,6 +48,7 @@ _Building something with this list? There's a [JSON feed](#machine-readable-feed
 | [OffSeq Threat Radar](https://radar.offseq.com/pricing) | 50% off the first month or the whole first year of any subscription plan | — | Dec 1 | Blue | Live CVE, exploited-vulnerability and malware intelligence with API, RSS and alerts. Free plan with API access (30 requests/day). · via [@thistehneisen](https://github.com/thistehneisen) |
 | [OmniForge](https://zcoldwater.github.io/omniforge-skills/black-friday-2026-developer-security-deal.html) | 83% off 3-in-1 Launch Security, Email DNS & AI Search Fix Suite ($29 to $5 one-time pass; individual VibeShield v7.0 / InboxShield v7.0 / CiteReady v6.0 passes $2) | — | Dec 1 (23:59 UTC) | Blue / Dev | Read-only passive web security, email DNS, and AI search launch audit suite: VibeShield v7.0 (116+ checks across JS secrets, Supabase RLS / CVE-2025-48757, Firebase rules, Next.js CVE-2025-29927, TLS & CSP AST), InboxShield v7.0 (SPF 10-lookup flattener, 28-selector DKIM, DMARC, BIMI, MTA-STS), and CiteReady v6.0 (/llms.txt & Schema.org). All diagnostic web scans, zero-install cli.sh, BrandShield v6.2 (78+ TLDs & USPTO), and 50 MIT Agent Skills are free; paid passes unlock domain-tailored copy-paste remediation code with no subscription. Auto-applied, no coupon code required. · via [@zColdWater](https://github.com/zColdWater) |
 | [S4E](https://s4e.io/black-friday) | 60% off a full year of S4E Pro ($1,428 → $571.20, about $47.60/mo) | `BLACKFRIDAY2026` | Dec 1 (23:59 UTC) | Blue | Continuous attack surface protection for your websites, domains and IP addresses. 24/7 change-aware monitoring with 12,000+ continuously updated checks, new CVE matching and instant email alerts, AI fix recommendations, dark web and credential integrations, full scan history and a weekly risk summary. Pro covers 1 continuously protected asset. New annual subscriptions only, discount applies to the first year; the code is applied automatically at checkout. Free plan and free online scanners also available. · via [@Eren-Akdag](https://github.com/Eren-Akdag) |
+| [Termalin](https://termal.in/pricing/) | 16 months of yearly Pro for the price of 12 ($96, $8 → $6/mo) + 100 GB cloud storage | — | Dec 1 | Dev / Networking | SSH, SFTP and RDP client for Windows, macOS, Linux and iOS with end-to-end encrypted sync. AI agents (ChatGPT, Claude, coding tools) run commands on your servers without being handed SSH keys, limited by a per-server command allowlist and logged to an audit log. Auto-applied at checkout, no code. |
 | [EnigmaIS](https://myownca.com/) | 80% off Starter Pack | `BLACK-FRIDAY-2026-STARTER-80` | Nov 22 – Dec 2 | Blue / Dev / Networking | Self-hosted PKI and private Certificate Authority management platform. ACME automation, TLS/mTLS certificates, HSM integration, certificate lifecycle management and offline root CA support. [GitHub](https://github.com/EnigmaIS/myOwnCA). Apply the code at checkout. · via [@Walkerovski](https://github.com/Walkerovski) |
 | [OffSeq Breach](https://breach.offseq.com/#pricing) | 50% off the first billing period of any paid plan | `BLACK` | Dec 2 | Blue | Leaked-credential monitoring for your domains across breach datasets, forums and Telegram. Free start. · via [@thistehneisen](https://github.com/thistehneisen) |
 | [OffSeq Pulse](https://pulse.offseq.com/pricing) | 50% off the first year or first month for new customers | — | Dec 2 | Blue | EU-hosted device posture and NIS2/CIS compliance for Windows, macOS and Linux. First 2 devices free. · via [@thistehneisen](https://github.com/thistehneisen) |
@@ -123,7 +124,6 @@ _Building something with this list? There's a [JSON feed](#machine-readable-feed
 
 | Vendor | Deal | Code | Dates | Notes |
 |---|---|---|---|---|
-| [System76](https://system76.com/) | Up to $200 off selected models | — | Nov 23 | Linux laptops and desktops. US customers only. |
 | [Beelink](https://www.bee-link.com/pages/black-friday-cyber-monday) | Up to 17% off selected mini PCs and bundles | `BF495` | Nov 30 | BF495 is $100 off the GTR9 Pro |
 | [GL.iNet](https://www.gl-inet.com/en-us/pages/early-black-friday) | Up to 20% off routers, Comet remote KVMs and travel routers | — | Nov 19 – Nov 30 | OpenWrt-based routers and remote KVMs. Handy for out-of-band access to lab hardware. |
 | [Hak5](https://hak5.org/pages/hacked-november) ✨ | Discount varies, see site | — | Nov 30 | Pentest and red team gadgets. |
@@ -137,6 +137,7 @@ _Building something with this list? There's a [JSON feed](#machine-readable-feed
 | [Geekom](https://www.geekompc.com/black-friday/) | Discount varies daily, see site | — | Dec 1 | Great compact homelab boxes |
 | [Covert Instruments](https://covertinstruments.com/) | 20–30% off most tools plus free gifts | — | Dec 6 | Lockpicking and physical entry tools |
 | [ORICO](https://oricotechs.com/pages/black-friday-2026) | 15-20% off NAS and DAS, plus spend-more tiers | — | Dec 7 (11:59 PM PST) | Storage enclosures and small NAS units for homelab builds. No code. Cart-tier discounts don't apply to NAS or enclosures. |
+| ~~[System76](https://system76.com/)~~ | ~~Up to $200 off selected models~~ | — | Ended Nov 23 | Linux laptops and desktops. US customers only. |
 
 ## 3D Printing & Maker
 
