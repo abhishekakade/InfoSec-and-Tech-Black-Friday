@@ -15,7 +15,7 @@ Even if something makes the list, do your due diligence so you aren't getting sc
 
 **115 active deals** of 116 listed
 
-_Last updated: Nov 24, 2026 02:52 PST_
+_Last updated: Nov 24, 2026 04:15 PST_
 
 _Building something with this list? There's a [JSON feed](#machine-readable-feed)._
 
@@ -186,7 +186,7 @@ _Building something with this list? There's a [JSON feed](#machine-readable-feed
 | [Proton Pass](https://proton.me/pass) | 60% off Pass Plus | — | Nov 30 | Privacy | Password manager with hide-my-email aliases. |
 | [Tuta](https://tuta.com/black-friday) | Additional 12 months free on Revolutionary or Legend plans (2 years for the price of 1) | — | Nov 30 | Privacy | Encrypted email and calendar, Germany-based. New customers only. |
 | [Faivelo](https://faivelo.com/black-friday) | 80% off email hosting for your own domain, $12 for the year instead of $60, renews at $12 (new customers, first 500 accounts) | — | Dec 1 | General | Unlimited mailboxes, aliases and domains on one plan, 25 GB shared storage, webmail and calendar, works with any IMAP app. Bring your own domain · via [@ethannschwartz](https://github.com/ethannschwartz) |
-| [Keeper Security](https://www.keepersecurity.com/) | 40% off personal plans | — | Dec 1 | General | Personal plans only, not business. |
+| [Keeper Security](https://www.keepersecurity.com/pricing/personal-and-family.html) | 40% off personal plans | — | Dec 1 | General | Personal plans only, not business. |
 | [Kinsta](https://kinsta.com/black-friday/) | 3 months free on annual plans or 50% off the first 3 months on monthly plans (new customers) | — | Dec 1 | Cloud | Managed hosting for WordPress secured by Cloudflare, with Vulnerability Protection by Patchstack, SOC 2 and ISO 27001 compliance · via [@vanani11](https://github.com/vanani11) |
 | [Incogni](https://incogni.com/) | 58% off annual plans | `BFCM26` | Dec 4 | Privacy | Data broker removal service. Useful for exec and personal exposure reduction. |
 | [Porkbun](https://porkbun.com/) | Rolling Black Friday deals, new drops Nov 19, 23 and 27 | — | Dec 4 | general | Flat pricing with cheap renewals all year. .com not discounted yet; check back after each drop. |
