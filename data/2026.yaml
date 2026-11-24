@@ -485,12 +485,6 @@ sections:
         ends_note: "end date not published, recheck"
         focus: "Red"
         notes: "Malware development and red team tradecraft courses."
-      - vendor: Centri (formerly Security Blue Team)
-        url: https://www.centri.org/black-friday
-        deal: "Up to 40% off BTL2, CSOM, CDEA, BTL1, CPTA; bundle £699"
-        ends: 2026-12-04
-        focus: "Blue"
-        notes: "Starts Nov 27 at 10:00 UTC; GBP prices, bundle not combinable with other discounts."
       - vendor: Cisco U. Store Learning Deals
         url: https://www.cisco.com/site/us/en/learn/training-certifications/learning-deals.html
         deal: "40% off Cisco U. Essentials and CCNA / DCAI bundles; 50% off CCNA 1.1 path"
