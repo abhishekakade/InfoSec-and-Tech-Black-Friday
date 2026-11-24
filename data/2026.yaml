@@ -864,7 +864,7 @@ sections:
         focus: Privacy
         notes: Password manager with hide-my-email aliases.
       - vendor: Keeper Security
-        url: https://www.keepersecurity.com/
+        url: https://www.keepersecurity.com/pricing/personal-and-family.html
         deal: 40% off personal plans
         ends: 2026-12-01
         focus: General
