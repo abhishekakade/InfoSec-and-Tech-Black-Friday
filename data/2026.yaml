@@ -520,23 +520,23 @@ sections:
         deal: "Mobile security course bundles from €249, up to 61% off"
         code: ["DFA500", "WEBKIT60", "IOS999", "BF26KU", "BF26FCA"]
         ends: 2026-11-30
-        ends_note: "Ends 23:59 CET"
+        ends_note: "23:59 CET"
         focus: "Red"
-        notes: "Android and iOS exploitation and forensics bundles; the iOS WebKit course is presale.   
+        notes: "Android and iOS exploitation and forensics bundles; the iOS WebKit course is presale."
       - vendor: 13Cubed
         url: https://training.13cubed.com/
         deal: "$100 off all courses"
         code: "BLACKFRIDAY2026"
         ends: 2026-11-30
         focus: "Blue"
-        notes: "DFIR and memory forensics courses by Richard Davis." 
+        notes: "DFIR and memory forensics courses by Richard Davis."
       - vendor: Altered Security
         url: https://www.alteredsecurity.com/
         deal: "20% off all courses and bootcamps, plus an extra 5% when you buy 2 or more items"
         starts: 2026-11-23
         ends: 2026-12-06
         focus: "Red"
-        notes: "Red team, Active Directory and Azure labs and bootcamps. No code needed."
+        notes: "Red team, Active Directory and Azure labs and bootcamps. No code needed; use your purchase up to 6 months later."
         taken: true  
         
   - id: labs
