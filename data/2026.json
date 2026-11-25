@@ -3,7 +3,7 @@
   "year": 2026,
   "source": "https://github.com/ps-lo/InfoSec-and-Tech-Black-Friday",
   "license": "CC-BY-4.0",
-  "generated": "2026-11-25T15:00:47+00:00",
+  "generated": "2026-11-25T15:47:40+00:00",
   "deals": [
     {
       "section": "tools",
@@ -2267,6 +2267,26 @@
       "ended": false,
       "focus": "Blue",
       "notes": "Realistic cyber crisis simulation to assess incident response readiness, with a recommendations report and proof of completion for audit purposes. No code needed, request via the landing page. Limited-time offer, no end date published.",
+      "via": null,
+      "taken": false,
+      "used": false
+    },
+    {
+      "section": "services",
+      "section_title": "Services",
+      "vendor": "Miget",
+      "url": "https://miget.com/plans",
+      "deal": "33% off for 12 months on a new workspace",
+      "codes": [
+        "BLACKFRIDAY26"
+      ],
+      "starts": "2026-11-27",
+      "ends": "2026-11-30",
+      "ends_note": "end of day CET",
+      "evergreen": false,
+      "ended": false,
+      "focus": "Cloud",
+      "notes": "Cloud platform for apps, databases and workers on one compute plan, deployed from Git, Docker or a coding agent. EU and US regions.",
       "via": null,
       "taken": false,
       "used": false

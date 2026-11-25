@@ -13,9 +13,9 @@ Even if something makes the list, do your due diligence so you aren't getting sc
 
 **Legend:** 💖 training I've taken and liked · ✨ gear or services I've used · ~~struck through~~ means the deal has ended
 
-**119 active deals** of 120 listed
+**120 active deals** of 121 listed
 
-_Last updated: Nov 25, 2026 07:00 PST_
+_Last updated: Nov 25, 2026 07:47 PST_
 
 _Building something with this list? There's a [JSON feed](#machine-readable-feed)._
 
@@ -185,6 +185,7 @@ _Building something with this list? There's a [JSON feed](#machine-readable-feed
 |---|---|---|---|---|---|
 | [1Password](https://1password.com/) | 50% off Individual annual ($2.99/mo first year); Families $4.49/mo | — | Nov 30 | General | New customers, first year only. 14-day free trial, no card needed. |
 | [DeleteMe](https://joindeleteme.com/) | 20% off privacy plans for new members | `BFCM2026` | Nov 30 | Privacy | Data broker removal service. New members only. |
+| [Miget](https://miget.com/plans) | 33% off for 12 months on a new workspace | `BLACKFRIDAY26` | Nov 27 – Nov 30 (end of day CET) | Cloud | Cloud platform for apps, databases and workers on one compute plan, deployed from Git, Docker or a coding agent. EU and US regions. |
 | [Proton Drive](https://proton.me/drive/pricing) ✨ | 50% off Drive Plus, first year | — | Nov 30 | Privacy | Encrypted cloud storage. |
 | [Proton Mail](https://proton.me/mail/black-friday) ✨ | 50% off Mail Plus or Proton Unlimited for a year; Unlimited first month $1 | — | Nov 30 |  | Mail Plus $2.49/mo, Unlimited $6.49/mo billed annually. Unlimited includes Mail, VPN, Pass, Drive. 30-day money-back guarantee. |
 | [Proton Pass](https://proton.me/pass) | 60% off Pass Plus | — | Nov 30 | Privacy | Password manager with hide-my-email aliases. |
