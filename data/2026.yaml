@@ -34,6 +34,14 @@ sections:
     title: Tools
     emoji: 🔨
     deals:
+      - vendor: Scarlet Shark
+        url: https://scarletshark.com/promo/cybermonday2026.html
+        deal: 100% OFF Basic plan for 5 months
+        code: "CyberMonday2026"
+        starts: 2026-11-24
+        ends: 2027-01-30
+        focus: Blue / Security
+        via: "@greenspark0"
       - vendor: ExposureDrift
         url: https://exposuredrift.com
         deal: "Early-user pre-launch offer: 50% off for a full year for the first 100 users + 15-day risk-free trial. Launches Dec 14 (end date is a placeholder)"
