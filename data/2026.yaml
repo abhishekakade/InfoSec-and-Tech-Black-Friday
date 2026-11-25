@@ -226,6 +226,12 @@ sections:
     title: Courses & Training
     emoji: 🎓
     deals:
+      - vendor: Mission Infosec
+        url: https://devsecopspro/devsecops-pro-bfcm-2026
+        deat: "Free access for 60 days - full course + labs"
+        ends: 2026-11-30
+        focus: DevSecOps / AppSec / Development
+        notes: "Learn by doing. Build security automation into pipelines using AWS and GitHub Actions. Anyone can use AI to write code. This course teaches you the skills to automate the security checks needed to deploy AI-written code safely."
       - vendor: "ISA"
         url: "https://programs.isa.org/blackfriday26"
         deal: "25% off eligible training and standards"
@@ -558,6 +564,11 @@ sections:
     title: Practical Labs
     emoji: 🧪
     deals:
+      - Vendor: PentesterLab
+        deal: https://pentesterlab.com/pro
+        Deal: PRO 27% off, Student and Code Review for $699
+        ends: 2026-12-02
+        focus: Red / Dev
       - vendor: TryHackMe
         url: https://tryhackme.com/black-friday
         deal: "40% off annual Premium, annual MAX and certifications"
