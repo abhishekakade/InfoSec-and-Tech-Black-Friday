@@ -594,6 +594,14 @@ sections:
         ends_note: "23:59 UTC"
         focus: Security / AI
         notes: 200+ hands-on AI security labs (prompt injection, RAG, agents, MCP). Code applies automatically at checkout.
+      - vendor: AppSecEngineer
+        url: https://www.appsecengineer.com/individuals/pricing
+        deal: 40% off Pro Plus annual plans and Bootcamps
+        code: "LEVELUP40"
+        ends: 2026-11-30
+        focus: Security / AI
+        notes: Hands-on AI security labs for securing AI agents and LLM apps, plus AppSec, cloud, Kubernetes and threat modeling tracks.
+        via: "@abhaybhargav"
             
   - id: hardware
     title: Hardware
