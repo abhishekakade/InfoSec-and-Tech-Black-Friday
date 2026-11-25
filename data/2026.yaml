@@ -230,6 +230,15 @@ sections:
         focus: Dev / Networking
         notes: "SSH, SFTP and RDP client for Windows, macOS, Linux and iOS with end-to-end encrypted sync. AI agents (ChatGPT, Claude, coding tools) run commands on your servers without being handed SSH keys, limited by a per-server command allowlist and logged to an audit log. Auto-applied at checkout, no code."
       
+      - vendor: Doppelgänger ATLAS
+        url: https://store.physicalexploit.com/products/atlas
+        deal: "50% off the ATLAS license for one year ($39 → $19.50 for one device, $69 → $34.50 for two)"
+        starts: 2026-11-27
+        ends: 2026-12-01
+        ends_note: 11:59 PM ET
+        focus: Red / Physical
+        notes: "Android app for authorized physical security assessments: RFID card work with a Proxmark or Chameleon Ultra, Doppelgänger reader capture, an operational map and evidence capture. Applies at checkout, no code. [Documentation](https://atlas.mwgroup.io/)."
+        via: "@tweathers-sec"
   - id: courses
     title: Courses & Training
     emoji: 🎓
@@ -569,6 +578,15 @@ sections:
         notes: "One-time purchase, no subscription or recurring fees. Red team tradecraft without relying on custom malware."
         via: "@ZephrFish"
         
+      - vendor: Practical Physical Exploitation (PPE)
+        url: https://physicalexploit.com/training/in-person
+        deal: "$1,000 off the in-person Practical Physical Exploitation course ($3,000 → $2,000)"
+        starts: 2026-11-27
+        ends: 2026-12-01
+        ends_note: 11:59 PM ET
+        focus: Red / Physical
+        notes: Hands-on physical security assessment training covering RFID and access control, bypass techniques and reporting. Applies at checkout, no code.
+        via: "@tweathers-sec"
   - id: labs
     title: Practical Labs
     emoji: 🧪
@@ -712,6 +730,15 @@ sections:
         ends: 2026-11-30
         notes: "BF495 is $100 off the GTR9 Pro"  
         
+      - vendor: Practical Physical Exploitation (PPE)
+        url: https://store.physicalexploit.com/
+        deal: "$75 off long range RFID readers, $50 off Stealth decoy readers, 30% off the Doppelgänger RFID Development Board, and the ATLAS Relay Kit at $169 (from $199). A free one-year ATLAS license with a qualifying reader, one per order"
+        starts: 2026-11-27
+        ends: 2026-12-01
+        ends_note: 11:59 PM ET
+        focus: Red / Physical
+        notes: RFID and access control assessment hardware for authorized physical security testing. Discounts apply at checkout, no code. Orders ship in 5 to 10 business days.
+        via: "@tweathers-sec"
   - id: maker
     title: 3D Printing & Maker
     emoji: 🖨️
