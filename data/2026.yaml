@@ -911,3 +911,12 @@ sections:
         evergreen: true
         focus: Blue
         notes: "Realistic cyber crisis simulation to assess incident response readiness, with a recommendations report and proof of completion for audit purposes. No code needed, request via the landing page. Limited-time offer, no end date published."
+      - vendor: Miget
+        url: https://miget.com/plans
+        deal: "33% off for 12 months on a new workspace"
+        code: "BLACKFRIDAY26"
+        starts: 2026-11-27
+        ends: 2026-11-30
+        ends_note: "end of day CET"
+        focus: Cloud
+        notes: "Cloud platform for apps, databases and workers on one compute plan, deployed from Git, Docker or a coding agent. EU and US regions."
