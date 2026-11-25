@@ -565,7 +565,7 @@ sections:
     emoji: 🧪
     deals:
       - vendor: PentesterLab
-        deal: https://pentesterlab.com/pro
+        url: https://pentesterlab.com/pro
         deal: PRO 27% off, Student and Code Review for $699
         ends: 2026-12-02
         focus: Red / Dev
