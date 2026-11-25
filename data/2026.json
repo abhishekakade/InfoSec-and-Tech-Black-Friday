@@ -3,7 +3,7 @@
   "year": 2026,
   "source": "https://github.com/ps-lo/InfoSec-and-Tech-Black-Friday",
   "license": "CC-BY-4.0",
-  "generated": "2026-11-25T14:56:01+00:00",
+  "generated": "2026-11-25T15:00:47+00:00",
   "deals": [
     {
       "section": "tools",
@@ -481,7 +481,7 @@
       "ended": false,
       "focus": "DevSecOps / AppSec / Development",
       "notes": "Learn by doing. Build security automation into pipelines using AWS and GitHub Actions. Anyone can use AI to write code. This course teaches you the skills to automate the security checks needed to deploy AI-written code safely.",
-      "via": null,
+      "via": "chad-butler-git",
       "taken": false,
       "used": false
     },
@@ -1357,7 +1357,7 @@
       "ended": false,
       "focus": "Red / Dev",
       "notes": null,
-      "via": null,
+      "via": "noblevk21",
       "taken": false,
       "used": false
     },
