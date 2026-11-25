@@ -13,9 +13,9 @@ Even if something makes the list, do your due diligence so you aren't getting sc
 
 **Legend:** 💖 training I've taken and liked · ✨ gear or services I've used · ~~struck through~~ means the deal has ended
 
-**116 active deals** of 117 listed
+**117 active deals** of 118 listed
 
-_Last updated: Nov 24, 2026 12:07 PST_
+_Last updated: Nov 25, 2026 06:39 PST_
 
 _Building something with this list? There's a [JSON feed](#machine-readable-feed)._
 
@@ -117,6 +117,7 @@ _Building something with this list? There's a [JSON feed](#machine-readable-feed
 | Vendor | Deal | Code | Dates | Focus | Notes |
 |---|---|---|---|---|---|
 | [TryHackMe](https://tryhackme.com/black-friday) | 40% off annual Premium, annual MAX and certifications | `none (auto)` | Nov 27 | Red / Blue | Auto-applied at checkout for individual accounts; certification bundles and business/education plans excluded, discount covers year one. |
+| [AppSecEngineer](https://www.appsecengineer.com/individuals/pricing) | 40% off Pro Plus annual plans and Bootcamps | `LEVELUP40` | Nov 30 | Security / AI | Hands-on AI security labs for securing AI agents and LLM apps, plus AppSec, cloud, Kubernetes and threat modeling tracks. · via [@abhaybhargav](https://github.com/abhaybhargav) |
 | [GenAI Security Lab](https://genaisecuritylab.com/pricing) | 40% off the yearly plan and the 4-Month Pass | `BLACKFRIDAY40` | Nov 30 (23:59 UTC) | Security / AI | 200+ hands-on AI security labs (prompt injection, RAG, agents, MCP). Code applies automatically at checkout. |
 | [Iximiuz Labs](https://labs.iximiuz.com/) 💖 | Discounted Lifetime and Annual Subscriptions | — | Nov 30 | General | Browser-based playgrounds for Linux, containers, Kubernetes and networking. |
 | [LabEx Pro (1 Year)](https://labex.io/checkout?type=2&coupon=2026BF30) | 30% off one-year membership | `2026BF30` | Dec 7 | Security / Linux / DevOps / Cloud | Browser-based hands-on labs. Available to new and existing users; code is active now. |
@@ -229,6 +230,7 @@ Code (scripts, workflows) is [MIT](LICENSE). The list content and everything in 
 - [@six2dez](https://github.com/six2dez)
 - [@sandra44dev](https://github.com/sandra44dev)
 - [@ZephrFish](https://github.com/ZephrFish)
+- [@abhaybhargav](https://github.com/abhaybhargav)
 - [@vanani11](https://github.com/vanani11)
 - [@ethannschwartz](https://github.com/ethannschwartz)
 
