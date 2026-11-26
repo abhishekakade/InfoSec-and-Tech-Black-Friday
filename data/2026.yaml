@@ -367,10 +367,18 @@ sections:
       - vendor: OffSec
         url: https://portal.offsec.com/checkout/?view=learn-one
         deal: $550 off Learn One Courses
-        code: 
+        code:
         ends: 2027-01-04
-        focus: Red/Blue
-        notes: Learn One is a year of access to one course plus exam attempts.
+        focus: Red / Blue / AI
+        notes: Learn One is a year of access to one course with 2 exam attempts. [OffSec Promo Page](https://learn.offsec.com/level-20-promo).
+        taken: true
+      - vendor: OffSec
+        url: https://portal.offsec.com/checkout/?view=cc
+        deal: $250 off Course + Cert Bundles
+        code:
+        ends: 2026-12-01
+        focus: Red / Blue / AI
+        notes: Save $250 on 90 days course + lab access with 1 exam attempt. [OffSec Promo Page](https://learn.offsec.com/level-20-promo).
         taken: true
       - vendor: MalDev Academy
         url: https://maldevacademy.com/
