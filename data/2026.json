@@ -3,8 +3,28 @@
   "year": 2026,
   "source": "https://github.com/ps-lo/InfoSec-and-Tech-Black-Friday",
   "license": "CC-BY-4.0",
-  "generated": "2026-11-26T00:26:00+00:00",
+  "generated": "2026-11-26T12:33:27+00:00",
   "deals": [
+    {
+      "section": "tools",
+      "section_title": "Tools",
+      "vendor": "Pulsedive",
+      "url": "https://pulsedive.com/",
+      "deal": "35% off first year of annual Pulsedive Pro plans",
+      "codes": [
+        "BFCM26"
+      ],
+      "starts": "2026-11-24",
+      "ends": "2026-12-01",
+      "ends_note": null,
+      "evergreen": false,
+      "ended": false,
+      "focus": "Blue",
+      "notes": "Full-featured freemium community threat intelligence platform providing powerful URL/IP scanning, threat tracking, integration, searching, and bulk enrichment capabilities.",
+      "via": null,
+      "taken": false,
+      "used": false
+    },
     {
       "section": "tools",
       "section_title": "Tools",
