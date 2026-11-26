@@ -3,7 +3,7 @@
   "year": 2026,
   "source": "https://github.com/ps-lo/InfoSec-and-Tech-Black-Friday",
   "license": "CC-BY-4.0",
-  "generated": "2026-11-26T12:33:27+00:00",
+  "generated": "2026-11-26T12:45:43+00:00",
   "deals": [
     {
       "section": "tools",
@@ -529,7 +529,7 @@
       "section": "courses",
       "section_title": "Courses & Training",
       "vendor": "Mission Infosec",
-      "url": "https://devsecopspro/devsecops-pro-bfcm-2026",
+      "url": "https://devsecopspro.com/devsecops-pro-bfcm-2026",
       "deal": "Free access for 60 days - full course + labs",
       "codes": [],
       "starts": null,
@@ -1443,9 +1443,7 @@
       "vendor": "TryHackMe",
       "url": "https://tryhackme.com/black-friday",
       "deal": "40% off annual Premium, annual MAX and certifications",
-      "codes": [
-        "none (auto)"
-      ],
+      "codes": [],
       "starts": null,
       "ends": "2026-11-27",
       "ends_note": null,

@@ -15,7 +15,7 @@ Even if something makes the list, do your due diligence so you aren't getting sc
 
 **129 active deals** of 130 listed
 
-_Last updated: Nov 26, 2026 04:33 PST_
+_Last updated: Nov 26, 2026 04:45 PST_
 
 _Building something with this list? There's a [JSON feed](#machine-readable-feed)._
 
@@ -77,7 +77,7 @@ _Building something with this list? There's a [JSON feed](#machine-readable-feed
 | [ISA](https://programs.isa.org/blackfriday26) | 25% off eligible training and standards | — | Nov 17 – Nov 30 | Blue | ICS/OT security training and standards. Only the courses and standards listed on the sale page qualify. |
 | [Just Hacking Training](https://www.justhacking.com/types/courses-and-paths) | 25% off | `BFF25` | Nov 30 | Red/Blue | Hands-on cybersecurity training from practitioners for practitioners. |
 | [MalDev Academy](https://maldevacademy.com/) 💖 | 25% off courses | `BLKFRIDAY25` | Nov 30 | Red/Blue | Malware development and evasion. Useful for red teamers and for defenders who want to understand what they’re detecting. |
-| [Mission Infosec](https://devsecopspro/devsecops-pro-bfcm-2026) | Free access for 60 days - full course + labs | — | Nov 30 | DevSecOps / AppSec / Development | Learn by doing. Build security automation into pipelines using AWS and GitHub Actions. Anyone can use AI to write code. This course teaches you the skills to automate the security checks needed to deploy AI-written code safely. · via [@chad-butler-git](https://github.com/chad-butler-git) |
+| [Mission Infosec](https://devsecopspro.com/devsecops-pro-bfcm-2026) | Free access for 60 days - full course + labs | — | Nov 30 | DevSecOps / AppSec / Development | Learn by doing. Build security automation into pipelines using AWS and GitHub Actions. Anyone can use AI to write code. This course teaches you the skills to automate the security checks needed to deploy AI-written code safely. · via [@chad-butler-git](https://github.com/chad-butler-git) |
 | [Mobile Hacking Lab](https://ads.mobilehackinglab.com/bf/deals) | Mobile security course bundles from €249, up to 61% off | `DFA500`<br>`WEBKIT60`<br>`IOS999`<br>`BF26KU`<br>`BF26FCA` | Nov 30 (23:59 CET) | Red | Android and iOS exploitation and forensics bundles; the iOS WebKit course is presale. |
 | [Modern Security](https://www.modernsecurity.io/) | 20% off the Certified AI Security Expert (MSec-CAIS) certification | `msec-blackfriday20` | Nov 30 | Security / AI | Vendor page uses msec-blackfriday20; some trackers list msec-bf20. Try both at checkout. |
 | [OnlySecurity](https://onlysecurity.com/black-friday/) | 15% off courses not already on sale, the first Plus or Max payment and the All Access pass | — | Nov 23 – Nov 30 | Red / Blue | Applied automatically at checkout, no code · via [@Kaicastledine](https://github.com/Kaicastledine) |
@@ -121,7 +121,7 @@ _Building something with this list? There's a [JSON feed](#machine-readable-feed
 
 | Vendor | Deal | Code | Dates | Focus | Notes |
 |---|---|---|---|---|---|
-| [TryHackMe](https://tryhackme.com/black-friday) | 40% off annual Premium, annual MAX and certifications | `none (auto)` | Nov 27 | Red / Blue | Auto-applied at checkout for individual accounts; certification bundles and business/education plans excluded, discount covers year one. |
+| [TryHackMe](https://tryhackme.com/black-friday) | 40% off annual Premium, annual MAX and certifications | — | Nov 27 | Red / Blue | Auto-applied at checkout for individual accounts; certification bundles and business/education plans excluded, discount covers year one. |
 | [AppSecEngineer](https://www.appsecengineer.com/individuals/pricing) | 40% off Pro Plus annual plans and Bootcamps | `LEVELUP40` | Nov 30 | Security / AI | Hands-on AI security labs for securing AI agents and LLM apps, plus AppSec, cloud, Kubernetes and threat modeling tracks. · via [@abhaybhargav](https://github.com/abhaybhargav) |
 | [GenAI Security Lab](https://genaisecuritylab.com/pricing) | 40% off the yearly plan and the 4-Month Pass | `BLACKFRIDAY40` | Nov 30 (23:59 UTC) | Security / AI | 200+ hands-on AI security labs (prompt injection, RAG, agents, MCP). Code applies automatically at checkout. |
 | [Iximiuz Labs](https://labs.iximiuz.com/) 💖 | Discounted Lifetime and Annual Subscriptions | — | Nov 30 | General | Browser-based playgrounds for Linux, containers, Kubernetes and networking. |
