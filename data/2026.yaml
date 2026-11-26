@@ -246,6 +246,22 @@ sections:
         focus: Red / Physical
         notes: "Android app for authorized physical security assessments: RFID card work with a Proxmark or Chameleon Ultra, Doppelgänger reader capture, an operational map and evidence capture. Applies at checkout, no code. [Documentation](https://atlas.mwgroup.io/)."
         via: "@tweathers-sec"
+      - vendor: Tenable Nessus
+        url: https://www.tenable.com/products/nessus
+        deal: 35% off Tenable Nessus Professional
+        code: "takehalf"
+        ends: 2026-11-27
+        Focus: Red / Blue
+        notes: Vulnerability scanning solution for SMB and consultants 
+        via: "@ashu2188"
+      - vendor: Xintra
+        url: https://www.xintra.org/courses
+        deal: 30% off courses
+        starts: 2026-11-26
+        ends: 2026-11-30
+        focus: blue
+        notes: Individual purchases only, excludes enterprise sales.
+        via: "@h0ng10"
         
   - id: courses
     title: Courses & Training
@@ -1003,3 +1019,10 @@ sections:
         ends_note: "end of day CET"
         focus: Cloud
         notes: "Cloud platform for apps, databases and workers on one compute plan, deployed from Git, Docker or a coding agent. EU and US regions."
+      - vendor: Grayhat Warfare
+        url: https://grayhatwarfare.com/packages
+        deal: Get premium for €160 for the first year, down from €300, or Enterprise for €450 for the first year, down from €960
+        ends: 2026-11-30
+        focus: Security
+        notes: Search public buckets (S3, Azure Blob Storage, Digital Ocean Spaces, etc.)
+        via: "@h0ng10"
