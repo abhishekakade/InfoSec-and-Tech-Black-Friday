@@ -13,7 +13,7 @@ Even if something makes the list, do your due diligence so you aren't getting sc
 
 **Legend:** 💖 training I've taken and liked · ✨ gear or services I've used · ~~struck through~~ means the deal has ended
 
-**133 active deals** of 134 listed
+**134 active deals** of 135 listed
 
 _Last updated: Nov 26, 2026 13:28 PST_
 
@@ -101,6 +101,7 @@ _Building something with this list? There's a [JSON feed](#machine-readable-feed
 | [INE](https://learn.ine.com/2026-black-friday-promotions) | Premium annual $499 (reg. $799), Premium + Skill Dive $649, Fundamentals $229, $101 off eJPT and $151 off other exam vouchers | — | Nov 20 – Dec 1 | Red / Blue / Networking | Auto-applied at checkout, no code. Premium and Fundamentals pricing is for new subscribers only and renews at full price. Vouchers expire 180 days after purchase. ICCA excluded. |
 | [Invoke RE](https://training.invokere.com/pricing) | 20% Off All Courses | — | Dec 1 | Blue | Malware analysis training with practical labs, walkthroughs, video and written materials. Discount applied at checkout. Courses are lifetime access. Binary Ninja courses provide Binary Ninja license for one year. |
 | [ISC2](https://www.isc2.org/training/black-friday-cyber-week-sale) | 10% off ISC2 courses, Express Courses and certificates; members get 20% | — | Dec 1 | Blue | Training only, not exam vouchers. Applied in cart, no code. |
+| [OffSec](https://portal.offsec.com/checkout/?view=cc) 💖 | $250 off Course + Cert Bundles | — | Dec 1 | Red / Blue / AI | Save $250 on 90 days course + lab access with 1 exam attempt. [OffSec Promo Page](https://learn.offsec.com/level-20-promo). |
 | [Practical Physical Exploitation (PPE)](https://physicalexploit.com/training/in-person) | $1,000 off the in-person Practical Physical Exploitation course ($3,000 → $2,000) | — | Nov 27 – Dec 1 (11:59 PM ET) | Red / Physical | Hands-on physical security assessment training covering RFID and access control, bypass techniques and reporting. Applies at checkout, no code. · via [@tweathers-sec](https://github.com/tweathers-sec) |
 | [TheXero Training Academy](https://training.thexero.co.uk/) | 67% off Wireless Operator course | — | Dec 1 | Red |  |
 | [Wireshark Labs](https://wiresharklabs.org/) | Hands-on Wireshark labs with real packet captures: WCA exam prep $199.99 → $99.99, Ranger (real-world cases) $249.99 → $179.99 | `PACKETFRIDAY` | Dec 1 (until Dec 2, 08:00 UTC) | Networking | via [@oripka](https://github.com/oripka) |
@@ -116,7 +117,7 @@ _Building something with this list? There's a [JSON feed](#machine-readable-feed
 | [7ASecurity](https://7asecurity.com/) | 50% off self-paced courses | `BFCM50` | Nov 17 – Dec 10 | Red / AppSec | Mobile and web app security training from a pentest firm. |
 | [White Knight Labs](https://whiteknightlabs.com/) 💖 | 50% off Certification Courses and 6/12 month Academy Passes | `WKLBLACKFRIDAY26` | Nov 27 – Dec 18 | Red | Offensive focused training and certifications |
 | [AppSec.training](https://appsec.training) | 50% off | `blackfriday` | Dec 31 | Security | via [@GHULI3V](https://github.com/GHULI3V) |
-| [OffSec](https://portal.offsec.com/checkout/?view=learn-one) 💖 | $550 off Learn One Courses | — | Jan 4, 2027 | Red/Blue | Learn One is a year of access to one course plus exam attempts. |
+| [OffSec](https://portal.offsec.com/checkout/?view=learn-one) 💖 | $550 off Learn One Courses | — | Jan 4, 2027 | Red / Blue / AI | Learn One is a year of access to one course with 2 exam attempts. [OffSec Promo Page](https://learn.offsec.com/level-20-promo). |
 | [Antisyphon Training](https://www.antisyphontraining.com/events/category/pay-forward-what-you-can/list/) 💖 | Not a black Friday Sale, but pay what you can on select courses year round | — | Ongoing | Red/Blue/AI | Live courses from the Black Hills InfoSec and others. Pay what you can on select classes, year-round. |
 
 ## Practical Labs

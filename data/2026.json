@@ -3,7 +3,7 @@
   "year": 2026,
   "source": "https://github.com/ps-lo/InfoSec-and-Tech-Black-Friday",
   "license": "CC-BY-4.0",
-  "generated": "2026-11-26T21:28:15+00:00",
+  "generated": "2026-11-26T21:28:55+00:00",
   "deals": [
     {
       "section": "tools",
@@ -821,8 +821,26 @@
       "ends_note": null,
       "evergreen": false,
       "ended": false,
-      "focus": "Red/Blue",
-      "notes": "Learn One is a year of access to one course plus exam attempts.",
+      "focus": "Red / Blue / AI",
+      "notes": "Learn One is a year of access to one course with 2 exam attempts. [OffSec Promo Page](https://learn.offsec.com/level-20-promo).",
+      "via": null,
+      "taken": true,
+      "used": false
+    },
+    {
+      "section": "courses",
+      "section_title": "Courses & Training",
+      "vendor": "OffSec",
+      "url": "https://portal.offsec.com/checkout/?view=cc",
+      "deal": "$250 off Course + Cert Bundles",
+      "codes": [],
+      "starts": null,
+      "ends": "2026-12-01",
+      "ends_note": null,
+      "evergreen": false,
+      "ended": false,
+      "focus": "Red / Blue / AI",
+      "notes": "Save $250 on 90 days course + lab access with 1 exam attempt. [OffSec Promo Page](https://learn.offsec.com/level-20-promo).",
       "via": null,
       "taken": true,
       "used": false
