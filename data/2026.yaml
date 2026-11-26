@@ -254,6 +254,11 @@ sections:
         Focus: Red / Blue
         notes: Vulnerability scanning solution for SMB and consultants 
         via: "@ashu2188"
+      
+  - id: courses
+    title: Courses & Training
+    emoji: 🎓
+    deals:
       - vendor: Xintra
         url: https://www.xintra.org/courses
         deal: 30% off courses
@@ -262,11 +267,6 @@ sections:
         focus: blue
         notes: Individual purchases only, excludes enterprise sales.
         via: "@h0ng10"
-        
-  - id: courses
-    title: Courses & Training
-    emoji: 🎓
-    deals:
       - vendor: Mission Infosec
         url: https://devsecopspro.com/devsecops-pro-bfcm-2026
         deal: "Free access for 60 days - full course + labs"
