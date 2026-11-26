@@ -854,6 +854,11 @@ sections:
     title: Wearables
     emoji: 👔
     deals:
+      - vendor: HackCloth
+        url: https://www.hackcloth.com/
+        deal: Free shipping + Buy 2 get 20% off storewide 
+        code: 
+        ends: 2026-12-31
       - vendor: Geeksoutfit
         url: https://www.geeksoutfit.com/
         deal: multiple codes 10% - 30% off + free gifts 
