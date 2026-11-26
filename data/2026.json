@@ -3,7 +3,7 @@
   "year": 2026,
   "source": "https://github.com/ps-lo/InfoSec-and-Tech-Black-Friday",
   "license": "CC-BY-4.0",
-  "generated": "2026-11-26T12:45:43+00:00",
+  "generated": "2026-11-26T20:59:37+00:00",
   "deals": [
     {
       "section": "tools",
@@ -2077,6 +2077,24 @@
       "ended": false,
       "focus": null,
       "notes": "40% off site wide",
+      "via": null,
+      "taken": false,
+      "used": false
+    },
+    {
+      "section": "wearables",
+      "section_title": "Wearables",
+      "vendor": "HackCloth",
+      "url": "https://www.hackcloth.com/",
+      "deal": "Free shipping + Buy 2 get 20% off storewide",
+      "codes": [],
+      "starts": null,
+      "ends": "2026-12-31",
+      "ends_note": null,
+      "evergreen": false,
+      "ended": false,
+      "focus": null,
+      "notes": null,
       "via": null,
       "taken": false,
       "used": false

@@ -13,9 +13,9 @@ Even if something makes the list, do your due diligence so you aren't getting sc
 
 **Legend:** 💖 training I've taken and liked · ✨ gear or services I've used · ~~struck through~~ means the deal has ended
 
-**129 active deals** of 130 listed
+**130 active deals** of 131 listed
 
-_Last updated: Nov 26, 2026 04:45 PST_
+_Last updated: Nov 26, 2026 12:59 PST_
 
 _Building something with this list? There's a [JSON feed](#machine-readable-feed)._
 
@@ -179,6 +179,7 @@ _Building something with this list? There's a [JSON feed](#machine-readable-feed
 |---|---|---|---|---|
 | [Geeksoutfit](https://www.geeksoutfit.com/) | multiple codes 10% - 30% off + free gifts | `BF10`<br>`BF20`<br>`BF30` | Nov 29 |  |
 | [Allow Some Deny All](https://shop.allowsomedenyall.com) | 10% off orders of $20–$25; 20% off orders over $25 | — | Dec 31 | Discounts apply automatically at checkout. Free standard shipping on orders over $25; $2 otherwise. Cybersecurity, hacker culture, wardriving, privacy, and biohacking stickers. |
+| [HackCloth](https://www.hackcloth.com/) | Free shipping + Buy 2 get 20% off storewide | — | Dec 31 |  |
 
 ## Games
 
