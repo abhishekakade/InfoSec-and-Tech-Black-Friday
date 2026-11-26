@@ -34,6 +34,14 @@ sections:
     title: Tools
     emoji: 🔨
     deals:
+      - vendor: Pulsedive
+        url: https://pulsedive.com/
+        deal: 35% off first year of annual Pulsedive Pro plans
+        code: "BFCM26"
+        starts: 2026-11-24
+        ends: 2026-12-01
+        focus: Blue
+        notes: Full-featured freemium community threat intelligence platform providing powerful URL/IP scanning, threat tracking, integration, searching, and bulk enrichment capabilities.
       - vendor: Scarlet Shark
         url: https://scarletshark.com/promo/cybermonday2026.html
         deal: 100% OFF Basic plan for 5 months
