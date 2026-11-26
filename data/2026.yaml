@@ -237,7 +237,6 @@ sections:
         ends: 2026-12-01
         focus: Dev / Networking
         notes: "SSH, SFTP and RDP client for Windows, macOS, Linux and iOS with end-to-end encrypted sync. AI agents (ChatGPT, Claude, coding tools) run commands on your servers without being handed SSH keys, limited by a per-server command allowlist and logged to an audit log. Auto-applied at checkout, no code."
-      
       - vendor: Doppelgänger ATLAS
         url: https://store.physicalexploit.com/products/atlas
         deal: "50% off the ATLAS license for one year ($39 → $19.50 for one device, $69 → $34.50 for two)"
@@ -247,12 +246,13 @@ sections:
         focus: Red / Physical
         notes: "Android app for authorized physical security assessments: RFID card work with a Proxmark or Chameleon Ultra, Doppelgänger reader capture, an operational map and evidence capture. Applies at checkout, no code. [Documentation](https://atlas.mwgroup.io/)."
         via: "@tweathers-sec"
+        
   - id: courses
     title: Courses & Training
     emoji: 🎓
     deals:
       - vendor: Mission Infosec
-        url: https://devsecopspro/devsecops-pro-bfcm-2026
+        url: https://devsecopspro.com/devsecops-pro-bfcm-2026
         deal: "Free access for 60 days - full course + labs"
         ends: 2026-11-30
         focus: DevSecOps / AppSec / Development
@@ -608,7 +608,6 @@ sections:
       - vendor: TryHackMe
         url: https://tryhackme.com/black-friday
         deal: "40% off annual Premium, annual MAX and certifications"
-        code: "none (auto)"
         ends: 2026-11-27
         focus: "Red / Blue"
         notes: "Auto-applied at checkout for individual accounts; certification bundles and business/education plans excluded, discount covers year one."
