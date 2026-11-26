@@ -13,9 +13,9 @@ Even if something makes the list, do your due diligence so you aren't getting sc
 
 **Legend:** 💖 training I've taken and liked · ✨ gear or services I've used · ~~struck through~~ means the deal has ended
 
-**130 active deals** of 131 listed
+**133 active deals** of 134 listed
 
-_Last updated: Nov 26, 2026 12:59 PST_
+_Last updated: Nov 26, 2026 13:28 PST_
 
 _Building something with this list? There's a [JSON feed](#machine-readable-feed)._
 
@@ -37,6 +37,7 @@ _Building something with this list? There's a [JSON feed](#machine-readable-feed
 
 | Vendor | Deal | Code | Dates | Focus | Notes |
 |---|---|---|---|---|---|
+| [Tenable Nessus](https://www.tenable.com/products/nessus) | 35% off Tenable Nessus Professional | `takehalf` | Nov 27 |  | Vulnerability scanning solution for SMB and consultants · via [@ashu2188](https://github.com/ashu2188) |
 | [AdverseMonitor](https://adversemonitor.com/black-friday) | 40%–60% off the first year of any yearly plan (MSSP plans from $234 for the first year) | — | Nov 30 (6:59 PM ET (23:59:59 UTC)) | Blue | Threat intelligence platform aimed at MSSPs. Discount applied automatically at checkout, no code. 14-day free trial, no card required. |
 | [Exploit Pack](https://www.exploitpack.com/products/exploit-pack) | ~20% off licenses and bundles. | `LIFETIME` | Nov 30 | Red | AI-assisted exploit-development framework with 46,000+ exploits, zero-days and debugger integration. Prices in EUR. · via [@epgh123](https://github.com/epgh123) |
 | [Exploit Pack - Control Pack](https://www.exploitpack.com/products/control-pack) | 20% off (€1,200 → €960) plus Lifetime licence | `LIFETIME` | Nov 30 | Red | Cross-platform C2 for stealthy post-exploitation and AI-assisted red-team operations. Prices in EUR. · via [@epgh123](https://github.com/epgh123) |
@@ -91,6 +92,7 @@ _Building something with this list? There's a [JSON feed](#machine-readable-feed
 | [The SecOps Group (PentestingExams)](https://pentestingexams.com/) | 90% off all pentesting certification exams | `BF-90` | Nov 30 | Red | Exam vouchers only, not training. Discount is big enough to DYOR on the exam terms. |
 | [TrainSec](https://trainsec.net/cybersecurity-courses-black-friday-2026/) 💖 | 40% off individual courses and plans | `BF2026` | Nov 30 | Security / Dev | Windows internals, kernel and low-level security courses. |
 | [VantagePoint](https://vantagepoint.enciphers.com/) | 70% off hacking labs and certifications | — | Nov 30 | Red |  |
+| [Xintra](https://www.xintra.org/courses) | 30% off courses | — | Nov 26 – Nov 30 | blue | Individual purchases only, excludes enterprise sales. · via [@h0ng10](https://github.com/h0ng10) |
 | [ZephrSec](https://malwareless.training/) | 13.37% off the Malwareless course | `GUISING1337` | Nov 30 | Red | One-time purchase, no subscription or recurring fees. Red team tradecraft without relying on custom malware. · via [@ZephrFish](https://github.com/ZephrFish) |
 | [Zero-Point Security](https://www.zeropointsecurity.co.uk/courses) | 40% off courses, applied at checkout | — | Nov 30 | Red | Red team training, including CRTO. Discount applied at checkout, no code. |
 | [Cisco U. Store Learning Deals](https://www.cisco.com/site/us/en/learn/training-certifications/learning-deals.html) | 40% off Cisco U. Essentials and CCNA / DCAI bundles; 50% off CCNA 1.1 path | — | Dec 1 | Network / Blue | Extra 40% doorbusters on Cisco Modeling Labs and CCNA Automation/Cybersecurity paths run only Nov 30, 8am–12pm PT. |
@@ -195,6 +197,7 @@ _Building something with this list? There's a [JSON feed](#machine-readable-feed
 |---|---|---|---|---|---|
 | [1Password](https://1password.com/) | 50% off Individual annual ($2.99/mo first year); Families $4.49/mo | — | Nov 30 | General | New customers, first year only. 14-day free trial, no card needed. |
 | [DeleteMe](https://joindeleteme.com/) | 20% off privacy plans for new members | `BFCM2026` | Nov 30 | Privacy | Data broker removal service. New members only. |
+| [Grayhat Warfare](https://grayhatwarfare.com/packages) | Get premium for €160 for the first year, down from €300, or Enterprise for €450 for the first year, down from €960 | — | Nov 30 | Security | Search public buckets (S3, Azure Blob Storage, Digital Ocean Spaces, etc.) · via [@h0ng10](https://github.com/h0ng10) |
 | [Miget](https://miget.com/plans) | 33% off for 12 months on a new workspace | `BLACKFRIDAY26` | Nov 27 – Nov 30 (end of day CET) | Cloud | Cloud platform for apps, databases and workers on one compute plan, deployed from Git, Docker or a coding agent. EU and US regions. |
 | [Proton Drive](https://proton.me/drive/pricing) ✨ | 50% off Drive Plus, first year | — | Nov 30 | Privacy | Encrypted cloud storage. |
 | [Proton Mail](https://proton.me/mail/black-friday) ✨ | 50% off Mail Plus or Proton Unlimited for a year; Unlimited first month $1 | — | Nov 30 |  | Mail Plus $2.49/mo, Unlimited $6.49/mo billed annually. Unlimited includes Mail, VPN, Pass, Drive. 30-day money-back guarantee. |
@@ -236,6 +239,8 @@ Code (scripts, workflows) is [MIT](LICENSE). The list content and everything in 
 - [@Eren-Akdag](https://github.com/Eren-Akdag)
 - [@zColdWater](https://github.com/zColdWater)
 - [@tweathers-sec](https://github.com/tweathers-sec)
+- [@ashu2188](https://github.com/ashu2188)
+- [@h0ng10](https://github.com/h0ng10)
 - [@chad-butler-git](https://github.com/chad-butler-git)
 - [@oripka](https://github.com/oripka)
 - [@GHULI3V](https://github.com/GHULI3V)

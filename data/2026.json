@@ -3,7 +3,7 @@
   "year": 2026,
   "source": "https://github.com/ps-lo/InfoSec-and-Tech-Black-Friday",
   "license": "CC-BY-4.0",
-  "generated": "2026-11-26T20:59:37+00:00",
+  "generated": "2026-11-26T21:28:15+00:00",
   "deals": [
     {
       "section": "tools",
@@ -522,6 +522,44 @@
       "focus": "Red / Physical",
       "notes": "Android app for authorized physical security assessments: RFID card work with a Proxmark or Chameleon Ultra, Doppelgänger reader capture, an operational map and evidence capture. Applies at checkout, no code. [Documentation](https://atlas.mwgroup.io/).",
       "via": "tweathers-sec",
+      "taken": false,
+      "used": false
+    },
+    {
+      "section": "tools",
+      "section_title": "Tools",
+      "vendor": "Tenable Nessus",
+      "url": "https://www.tenable.com/products/nessus",
+      "deal": "35% off Tenable Nessus Professional",
+      "codes": [
+        "takehalf"
+      ],
+      "starts": null,
+      "ends": "2026-11-27",
+      "ends_note": null,
+      "evergreen": false,
+      "ended": false,
+      "focus": null,
+      "notes": "Vulnerability scanning solution for SMB and consultants",
+      "via": "ashu2188",
+      "taken": false,
+      "used": false
+    },
+    {
+      "section": "courses",
+      "section_title": "Courses & Training",
+      "vendor": "Xintra",
+      "url": "https://www.xintra.org/courses",
+      "deal": "30% off courses",
+      "codes": [],
+      "starts": "2026-11-26",
+      "ends": "2026-11-30",
+      "ends_note": null,
+      "evergreen": false,
+      "ended": false,
+      "focus": "blue",
+      "notes": "Individual purchases only, excludes enterprise sales.",
+      "via": "h0ng10",
       "taken": false,
       "used": false
     },
@@ -2470,6 +2508,24 @@
       "focus": "Cloud",
       "notes": "Cloud platform for apps, databases and workers on one compute plan, deployed from Git, Docker or a coding agent. EU and US regions.",
       "via": null,
+      "taken": false,
+      "used": false
+    },
+    {
+      "section": "services",
+      "section_title": "Services",
+      "vendor": "Grayhat Warfare",
+      "url": "https://grayhatwarfare.com/packages",
+      "deal": "Get premium for €160 for the first year, down from €300, or Enterprise for €450 for the first year, down from €960",
+      "codes": [],
+      "starts": null,
+      "ends": "2026-11-30",
+      "ends_note": null,
+      "evergreen": false,
+      "ended": false,
+      "focus": "Security",
+      "notes": "Search public buckets (S3, Azure Blob Storage, Digital Ocean Spaces, etc.)",
+      "via": "h0ng10",
       "taken": false,
       "used": false
     }
