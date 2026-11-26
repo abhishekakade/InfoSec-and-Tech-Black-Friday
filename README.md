@@ -13,9 +13,9 @@ Even if something makes the list, do your due diligence so you aren't getting sc
 
 **Legend:** 💖 training I've taken and liked · ✨ gear or services I've used · ~~struck through~~ means the deal has ended
 
-**124 active deals** of 125 listed
+**128 active deals** of 129 listed
 
-_Last updated: Nov 25, 2026 12:49 PST_
+_Last updated: Nov 25, 2026 16:26 PST_
 
 _Building something with this list? There's a [JSON feed](#machine-readable-feed)._
 
@@ -143,7 +143,11 @@ _Building something with this list? There's a [JSON feed](#machine-readable-feed
 | [Zima](https://shop.zimaspace.com/) ✨ | $15-60 off ZimaBoard and ZimaCube. | — | Nov 30 |  | x86 single-board servers. Good firewall and NAS builds. |
 | [Back Market](https://www.backmarket.com/en-us/e/black-friday) | Discount varies daily, see site | — | Dec 1 |  | refurb phones and hardware for labs |
 | [Geekom](https://www.geekompc.com/black-friday/) | Discount varies daily, see site | — | Dec 1 |  | Great compact homelab boxes |
-| [Practical Physical Exploitation (PPE)](https://store.physicalexploit.com/) | $75 off long range RFID readers, $50 off Stealth decoy readers, 30% off the Doppelgänger RFID Development Board, and the ATLAS Relay Kit at $169 (from $199). A free one-year ATLAS license with a qualifying reader, one per order | — | Nov 27 – Dec 1 (11:59 PM ET) | Red / Physical | RFID and access control assessment hardware for authorized physical security testing. Discounts apply at checkout, no code. Orders ship in 5 to 10 business days. · via [@tweathers-sec](https://github.com/tweathers-sec) |
+| [PPE - ATLAS Relay Kit](https://store.physicalexploit.com/products/atlas-relay-kit) | $30 off ($199 → $169) | — | Nov 27 – Dec 1 (11:59 PM ET) | Red / Physical | Two Chameleon Ultras, four USB-C adapters and an ATLAS license for two devices. Phones not included. Applies at checkout, no code. · via [@tweathers-sec](https://github.com/tweathers-sec) |
+| [PPE - Doppelgänger Long Range Readers](https://store.physicalexploit.com/collections/doppelganger-core-longrange-readers) | $75 off each long range RFID reader (HID iCLASS R90SE $845 → $770, HID MaxiProx 5375 $925 → $850), plus a free one-year ATLAS license | — | Nov 27 – Dec 1 (11:59 PM ET) | Red / Physical | Long range card capture for authorized physical security assessments. Applies at checkout, no code. One free license per order. · via [@tweathers-sec](https://github.com/tweathers-sec) |
+| [PPE - Doppelgänger RFID Development Board](https://store.physicalexploit.com/products/doppelganger-pcb) | 30% off ($60 → $42) | — | Nov 27 – Dec 1 (11:59 PM ET) | Red / Physical | Wiegand and clock and data capture board for building your own long range or decoy reader. Applies at checkout, no code. · via [@tweathers-sec](https://github.com/tweathers-sec) |
+| [PPE - Doppelgänger Stealth Decoy Readers](https://store.physicalexploit.com/collections/doppelganger-stealth-and-mfas-decoy-readers) | $50 off each Stealth and MFAS decoy reader (from $325 → $275), plus a free one-year ATLAS license | — | Nov 27 – Dec 1 (11:59 PM ET) | Red / Physical | Battery powered decoy readers that capture cards and PINs, for authorized assessments. Reader variants only. Applies at checkout, no code. One free license per order. · via [@tweathers-sec](https://github.com/tweathers-sec) |
+| [PPE - Paxton P200 Dual Mode Reader](https://store.physicalexploit.com/products/paxton-p200-dual-mode-data-interpreter) | Free one-year ATLAS license ($39 value) with the reader | — | Nov 27 – Dec 1 (11:59 PM ET) | Red / Physical | One free license per order. No code. · via [@tweathers-sec](https://github.com/tweathers-sec) |
 | [Covert Instruments](https://covertinstruments.com/) | 20–30% off most tools plus free gifts | — | Dec 6 |  | Lockpicking and physical entry tools |
 | [ORICO](https://oricotechs.com/pages/black-friday-2026) | 15-20% off NAS and DAS, plus spend-more tiers | — | Dec 7 (11:59 PM PST) |  | Storage enclosures and small NAS units for homelab builds. No code. Cart-tier discounts don't apply to NAS or enclosures. |
 | ~~[System76](https://system76.com/)~~ | ~~Up to $200 off selected models~~ | — | Ended Nov 23 |  | Linux laptops and desktops. US customers only. |
